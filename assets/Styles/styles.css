@@ -1,0 +1,65 @@
+html, body 
+{
+    background-color: lightslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cld
+{
+    width: 60%;
+    height: 80%;
+    background-color: lightpink;
+    box-shadow: 0 0 10px;
+}
+
+#enteteCld
+{
+    width: 100%;
+    height: 18%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+#cldT
+{
+    width: 100%;
+    height: 66.666%;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avantEtApres
+{
+    width: 100%;
+    height: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+#cldBtn
+{
+    width: 40%;
+    height: 100%;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    outline: none;
+    transition: 0.2s;
+}
+
+.cldBtn:hover
+{
+    background-color: lightgreen;
+}
+
