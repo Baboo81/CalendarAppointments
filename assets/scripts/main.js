@@ -12,6 +12,7 @@ const monthName = ["janvier", "février", "mars", "avril", "mai", "juin", "juill
 const UP_MONTH ='upMonth';
 const DOWN_MONTH = 'downMonth';
 
+//Fct permettant de diminuer ou d'augmenter l'année en fct du clic avant ou arrière:
 function CALENDRIER_REDUCER(action) {
     switch (action) {
         case UP_MONTH :
