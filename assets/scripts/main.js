@@ -13,6 +13,23 @@ const UP_MONTH ='upMonth';
 const DOWN_MONTH = 'downMonth';
 
 function CALENDRIER_REDUCER(action) {
-
+    switch (action) {
+        case UP_MONTH :
+            if (month < 12) month++
+                else {
+                    year++
+                    month = 1 
+                }
+                break;
+        case DOWN_MONTH :  
+            if (month > 0) month--
+                else {
+                    year--
+                    month = 12
+                }
+                break;
+        default:
+            break;
+    }
 }
 
