@@ -34,3 +34,13 @@ function CALENDRIER_REDUCER(action) {
     }
 }
 
+document.getElementById('avant').onclick = function () {
+    CALENDRIER_REDUCER(DOWN_MONTH)
+    console.log(month)
+}
+
+document.getElementById('apres').onclick = function () {
+    CALENDRIER_REDUCER(UP_MONTH)
+    console.log(month)
+}
+
