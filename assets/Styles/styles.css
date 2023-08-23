@@ -12,7 +12,7 @@ html, body
 #cld
 {
     width: 60%;
-    height: 300px;
+    height: 500px;
     background-color: lightpink;
     box-shadow: 0 0 10px;
 }
@@ -47,12 +47,12 @@ html, body
     background-color: lightslategray;
 }
 
-#cldBtn
+.cldBtn
 {
     width: 40%;
     height: 100%;
     border: none;
-    background-color: lightcoral;
+    background-color: lightslategray;
     color: white;
     outline: none;
     transition: 0.2s;

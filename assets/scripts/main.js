@@ -1,6 +1,6 @@
 "use strict";
 
-let Case = document.getElementsByClassName('case');
+let Cases = document.getElementsByClassName('case');
 
 let date = new Date();
 let year = date.getFullYear();
@@ -32,6 +32,7 @@ function CALENDRIER_REDUCER(action) {
         default:
             break;
     }
+    calendrier(year, month)
 }
 
 document.getElementById('avant').onclick = function () {
@@ -44,3 +45,45 @@ document.getElementById('apres').onclick = function () {
     console.log(month)
 }
 
+function calendrier (year, month) {
+    const monthNb = month + 12 * (year - 2020)
+
+    let cld = [{dayStart: 2, length: 31, year: 2020, month: "janvier"}]
+
+    for (let i = 0; i < monthNb - 1; i++) {
+        let yearSimule = 2020 + Math.floor(i / 12)
+        const monthsSimuleLongueur = [31, getFevrierLength(yearSimule), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31] 
+        let monthSimuleIndex = (i + 1) - (yearSimule - 2020) * 12
+
+        cld[i + 1] = {
+            dayStart: (cld[i].dayStart + monthsSimuleLongueur[monthSimuleIndex - 1]) % 7,
+            length: monthsSimuleLongueur[monthSimuleIndex],
+            year: 2020 + Math.floor((i + 1) / 12),
+            month: monthName[monthSimuleIndex]
+        }
+
+        //Avec cette méthode de calcul, le mois de janvier n'apparait pas alors je fais ceci :
+        if (cld[i + 1].month === undefined) {
+            cld[i + 1].month = "janvier"
+            cld[i + 1].length = 31
+        }
+    }
+
+    for (let i = 0; i < Cases.length; i++) {
+        Cases[i].innerText = "" 
+    }
+
+    for (let i = 0; i < cld[cld.length - 1].length; i++) {
+        Cases[i + cld[cld.length - 1].dayStart].innerText = i + 1
+    }
+
+    document.getElementById('cldT').innerText = cld[cld.length - 1].month.toLocaleUpperCase() + " " + cld[cld.length - 1].year
+}
+calendrier(year, month);
+
+//Fct si année bissextile : 
+function getFevrierLength(year) {
+    if (year % 4 === 0) return 29
+        else return 28
+    }
+ 
