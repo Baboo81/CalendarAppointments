@@ -13,7 +13,7 @@ const UP_MONTH ='upMonth';
 const DOWN_MONTH = 'downMonth';
 
 //Fct permettant de diminuer ou d'augmenter l'année en fct du clic avant ou arrière:
-function CALENDRIER_REDUCER(action) {
+function CALENDAR_REDUCER(action) {
     switch (action) {
         case UP_MONTH :
             if (month < 12) month++
@@ -32,20 +32,20 @@ function CALENDRIER_REDUCER(action) {
         default:
             break;
     }
-    calendrier(year, month)
+    calendar(year, month)
 }
 
 document.getElementById('avant').onclick = function () {
-    CALENDRIER_REDUCER(DOWN_MONTH)
+    CALENDAR_REDUCER(DOWN_MONTH)
     console.log(month)
 }
 
 document.getElementById('apres').onclick = function () {
-    CALENDRIER_REDUCER(UP_MONTH)
+    CALENDAR_REDUCER(UP_MONTH)
     console.log(month)
 }
 
-function calendrier (year, month) {
+function calendar (year, month) {
     const monthNb = month + 12 * (year - 2020)
 
     let cld = [{dayStart: 2, length: 31, year: 2020, month: "janvier"}]
@@ -79,7 +79,7 @@ function calendrier (year, month) {
 
     document.getElementById('cldT').innerText = cld[cld.length - 1].month.toLocaleUpperCase() + " " + cld[cld.length - 1].year
 }
-calendrier(year, month);
+calendar(year, month);
 
 //Fct si année bissextile : 
 function getFevrierLength(year) {
