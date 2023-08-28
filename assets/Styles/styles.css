@@ -1,6 +1,15 @@
+:root
+{
+    --beige : #eae7dc;
+    --brun : #d8c3a5;
+    --taupe : #8e8d8a;
+    --saumon : #e98074;
+    --ocre : #e85a4f;
+}
+
 html, body 
 {
-    background-color: lightslategray;
+    background-color: var(--taupe);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     height: 100%;

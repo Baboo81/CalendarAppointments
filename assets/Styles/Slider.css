@@ -1,3 +1,11 @@
+:root {
+  --noir: #000;
+  --beige: #eae7dc;
+  --brun: #d8c3a5;
+  --taupe: #8e8d8a;
+  --saumon: #e98074;
+  --ocre: #e85a4f; }
+
 body {
   font-family: "Century Gothic", 'Lato', sans-serif; }
 
@@ -12,7 +20,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #eee;
+  background: var(--beige);
   text-align: center;
   padding: 0 2em; }
   .et-hero-tabs h1,
@@ -35,7 +43,7 @@ a {
   height: 70px;
   margin-left: 61%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: var(--beige);
   z-index: 10; }
   .et-hero-tabs-container--top {
     position: fixed;
@@ -52,7 +60,7 @@ a {
   font-size: 0.8rem; }
   .et-hero-tab:hover {
     color: white;
-    background: rgba(102, 177, 241, 0.8);
+    background: var(--saumon);
     transition: all 0.5s ease; }
 
 .et-hero-tab-slider {
@@ -60,7 +68,7 @@ a {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: #66B1F1;
+  background: var(--noir);
   transition: left 0.3s ease; }
 
 .et-main {
