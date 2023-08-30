@@ -100,6 +100,7 @@ function animate () {
     //xPos -= "300px";
     //angle += .5; 
     //yPos = Math.round(Math.sin(angle));
+    yPos = 
 
     bloc.style.transform = `translate3d(${xPos}, ${yPos}, 0)`;
 
