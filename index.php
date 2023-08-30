@@ -54,90 +54,20 @@
         </header>
 
        <main class="container">
-                <div id="calendar">
-                    <h1>Calendar</h1>
-                    <section id="cld">
-                        <section id="enteteCld">
-                            <h2 id="cldT">JANVIER</h2>
-                            <section id="avantEtApres">
-                                <button id="avant" class="cldBtn">Avant</button>
-                                <button id="apres" class="cldBtn">Après</button>
-                            </section>
-                        </section>
+            <nav class="navbar navbar-dark bg-primary mb-3">
+                <a href="/index.php" class="navbar-brand">Mon calendrier</a>
+            </nav>
 
-                        <section id="cldBoite">
-                            <div id="jours">
-                                <div class="jour">Lun</div>
-                                <div class="jour">Mar</div>
-                                <div class="jour">Mer</div>
-                                <div class="jour">Jeu</div>
-                                <div class="jour">Ven</div>
-                                <div class="jour">Sam</div>
-                                <div class="jour">Dim</div>
-                            </div>
+            <!--Construction cu calendrier-->
+            <?php 
+                require './assets/src/Date/Month.php';
+                $month =new App\Date\Month(1, 2023); 
+            ?>
 
-                            <div id="semaine1" class="semaine">
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                            </div>
+            <h1><?= $month->toString(); ?></h1>
 
-                            <div id="semaine2" class="semaine">
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                            </div>
-
-                            <div id="semaine3" class="semaine">
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                            </div>
-
-                            <div id="semaine4" class="semaine">
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                            </div>
-
-                            <div id="semaine5" class="semaine">
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                            </div>
-
-                            <div id="semaine6" class="semaine">
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                                <div class="case"></div>
-                            </div>
-                        </section>
-                    </section>
-                </div>    
+            <!--Pour le nb de semaines-->
+            <?php $month->getWeeks(); ?>            
        </main>
     </body>
 </html>
