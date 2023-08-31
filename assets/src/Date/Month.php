@@ -5,6 +5,7 @@ namespace App\Date;
 
 class Month {
 
+    public $days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
     private $months = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
     private $month;
     private $year;
@@ -35,6 +36,15 @@ class Month {
     }
 
     /**
+     * Renvoie le 1er jour du mois 
+     * @return \DateTimr
+     */
+    public function getStartingDay () : \DateTime
+    {
+        return new \DateTime("{$this->year}-{$this->month}-01");
+    }
+
+    /**
      * Retourne le mois en chaîne de caractères
      * @param string
      */
@@ -43,9 +53,9 @@ class Month {
     }
 
     public function getWeeks (): int {
-        $start = new \DateTime("{$this->year}-{$this->month}-01");
+        $start = $this->getStartingDay();
         $end = (clone $start)->modify('+1 month -1 day');//clone va permettre de cloner la variable $start afin d'éviter de la modifer
-        $weeks = intval($end->format('W')) - intval($start->format('W'));
+        $weeks = intval($end->format('W')) - intval($start->format('W')) + 1;
 
         if ($weeks < 0) {
             $weeks = intval($end->format('W'));

@@ -19,5 +19,23 @@ html, body
 }
 
 /*Calendar*/
+.calendarTable
+{
+    width: 100%;
+    height: calc(100vh - 128px);
+}
 
+.calendarTable td
+{
+    padding: 10px;
+    border: 1px solid #CCC;
+    vertical-align: top;
+    width: 14.29%;
+    height: 20%;
+}
+
+.calendarTable--6weeks td 
+{
+    height: 16.66%;
+}
 /*END*/

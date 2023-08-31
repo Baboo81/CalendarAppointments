@@ -66,16 +66,30 @@
                 } catch (\Exception $e) {
                     $month = new App\Date\Month();
                 }
+                $day = $month->getStartingDay()->modify('last monday');
                 
             ?>
 
             <h1><?= $month->toString(); ?></h1>
 
             <!--Pour le nb de semaines-->
-            <?= $month->gettWeeks(); ?>
+            <?= $month->getWeeks(); ?>
 
-            <table>
-
+            <table class="calendarTable calendarTable--<?= $month->getWeeks(); ?>weeks">
+                <?php for ($i = 0; $i < $month->getWeeks(); $i++): ?>
+                    <tr>
+                        <td>
+                            Lundi<br>
+                            <?= $day->format('d'); ?>
+                        </td>
+                        <td>Mardi</td>
+                        <td>Mercredi</td>
+                        <td>Jeudi</td>
+                        <td>Vendredi</td>
+                        <td>Samedi</td>
+                        <td>Dimanche</td>
+                    </tr>
+                <?php endfor; ?>
             </table>           
        </main>
     </body>
