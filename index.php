@@ -61,13 +61,22 @@
             <!--Construction cu calendrier-->
             <?php 
                 require './assets/src/Date/Month.php';
-                $month =new App\Date\Month(1, 2023); 
+                try {
+                    $month =new App\Date\Month($_GET['month'] ?? null, $_GET['year']  ?? null); 
+                } catch (\Exception $e) {
+                    $month = new App\Date\Month();
+                }
+                
             ?>
 
             <h1><?= $month->toString(); ?></h1>
 
             <!--Pour le nb de semaines-->
-            <?php $month->getWeeks(); ?>            
+            <?= $month->gettWeeks(); ?>
+
+            <table>
+
+            </table>           
        </main>
     </body>
 </html>
