@@ -58,7 +58,7 @@
                 <a href="/index.php" class="navbar-brand">Mon calendrier</a>
             </nav>
 
-            <!--Construction cu calendrier-->
+            <!--Construction du calendrier-->
             <?php 
                 require './assets/src/Date/Month.php';
                 try {
@@ -66,11 +66,18 @@
                 } catch (\Exception $e) {
                     $month = new App\Date\Month();
                 }
-                $day = $month->getStartingDay()->modify('last monday');
+                $start = $month->getStartingDay()->modify('last monday');
                 
             ?>
-
-            <h1><?= $month->toString(); ?></h1>
+            <!--Btn nav calendrier-->
+            <div class="d-flex flex-row align-items-center justify-content-between mx-3">
+                <h1><?= $month->toString(); ?></h1>
+                <div>
+                    <a href="#" class="btn btn-primary">&lt;</a>
+                    <a href="#" class="btn btn-primary">&gt;</a>
+                </div>
+            </div>
+            
 
             <!--Pour le nb de semaines-->
             <?= $month->getWeeks(); ?>
@@ -78,16 +85,17 @@
             <table class="calendarTable calendarTable--<?= $month->getWeeks(); ?>weeks">
                 <?php for ($i = 0; $i < $month->getWeeks(); $i++): ?>
                     <tr>
-                        <td>
-                            Lundi<br>
-                            <?= $day->format('d'); ?>
+                        <?php 
+                            foreach($month->days as $k => $day): 
+                               $date = (clone $start)->modify( "+" . ($k + $i * 7) . "days")
+                        ?>
+                        <td class="<?= $month->withinMonth($date) ? '' : 'calendarOtherMonth'; ?>">
+                            <?php if ($i === 0): ?>
+                                <div class="calendarWeekDay"><?= $day; ?></div>
+                            <?php endif; ?>
+                            <div class="calendarDay"><?= $date->format('d');?></div>
                         </td>
-                        <td>Mardi</td>
-                        <td>Mercredi</td>
-                        <td>Jeudi</td>
-                        <td>Vendredi</td>
-                        <td>Samedi</td>
-                        <td>Dimanche</td>
+                        <?php endforeach; ?>
                     </tr>
                 <?php endfor; ?>
             </table>           

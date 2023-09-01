@@ -52,6 +52,10 @@ class Month {
         return $this->months[$this->month - 1] . ' ' . $this->year;
     }
 
+    /**
+     * Renvoie le nombre de semaine dans le mois
+     * @return int 
+     */
     public function getWeeks (): int {
         $start = $this->getStartingDay();
         $end = (clone $start)->modify('+1 month -1 day');//clone va permettre de cloner la variable $start afin d'éviter de la modifer
@@ -61,6 +65,15 @@ class Month {
             $weeks = intval($end->format('W'));
         }
         return $weeks;
+    }
+
+    /**
+     * Est-ce que le jour est dans le mois en cours
+     * @param \DateTime $date
+     * @return bool
+     */
+    public function withinMonth (\DateTime $date): bool {
+        return $this->getStartingDay()->format('Y-m') === $date->format('Y-m');
     }
 }
 
