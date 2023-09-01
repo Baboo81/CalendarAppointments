@@ -66,15 +66,16 @@
                 } catch (\Exception $e) {
                     $month = new App\Date\Month();
                 }
-                $start = $month->getStartingDay()->modify('last monday');
+                $start = $month->getStartingDay();
+                $start = $start->format('N') === '1' ? $start : $month->getStartingDay()->modify('last monday');
                 
             ?>
             <!--Btn nav calendrier-->
             <div class="d-flex flex-row align-items-center justify-content-between mx-3">
                 <h1><?= $month->toString(); ?></h1>
                 <div>
-                    <a href="#" class="btn btn-primary">&lt;</a>
-                    <a href="#" class="btn btn-primary">&gt;</a>
+                    <a href="/index.php?month=<?= $month->prevMonth()->month; ?>&year=<?= $month->prevMonth()->year; ?>" class="btn btn-primary">&lt;</a>
+                    <a href="/index.php?month=<?= $month->nextMonth()->month; ?>&year=<?= $month->nextMonth()->year; ?>" class="btn btn-primary">&gt;</a>
                 </div>
             </div>
             

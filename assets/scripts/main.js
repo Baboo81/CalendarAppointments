@@ -15,9 +15,9 @@ function animate () {
     //xPos -= "300px";
     //angle += .5; 
     //yPos = Math.round(Math.sin(angle));
-    yPos = 
+    //yPos = 
 
-    bloc.style.transform = `translate3d(${xPos}, ${yPos}, 0)`;
+    //bloc.style.transform = `translate3d(${xPos}, ${yPos}, 0)`;
 
     requestAnimationFrame(animate);
 };
