@@ -21,7 +21,7 @@
             <section class="et-hero-tabs">
                 <h1>Institut Soin de Soie</h1>
                 <div class="et-hero-tabs-container">
-                    <a class="et-hero-tab" href="#tab-es6">Hello</a>
+                    <a class="et-hero-tab" href="#tab-es6">Accueil</a>
                     <a class="et-hero-tab" href="#tab-flexbox">World</a>
                     <a class="et-hero-tab" href="#tab-react">Soins</a>
                     <a class="et-hero-tab" href="#tab-angular">Contact</a>
@@ -54,52 +54,54 @@
         </header>
 
        <main class="container">
-            <nav class="navbar navbar-dark bg-primary mb-3">
-                <a href="/index.php" class="navbar-brand">Mon calendrier</a>
-            </nav>
+            <section id="calendarBloc">
+                <nav class="navbar navbar-dark bg-primary mb-3">
+                    <a href="/index.php" class="navbar-brand">Mon calendrier</a>
+                </nav>
 
-            <!--Construction du calendrier-->
-            <?php 
-                require './assets/src/Date/Month.php';
-                try {
-                    $month =new App\Date\Month($_GET['month'] ?? null, $_GET['year']  ?? null); 
-                } catch (\Exception $e) {
-                    $month = new App\Date\Month();
-                }
-                $start = $month->getStartingDay();
-                $start = $start->format('N') === '1' ? $start : $month->getStartingDay()->modify('last monday');
-                
-            ?>
-            <!--Btn nav calendrier-->
-            <div class="d-flex flex-row align-items-center justify-content-between mx-3">
-                <h1><?= $month->toString(); ?></h1>
-                <div>
-                    <a href="/index.php?month=<?= $month->prevMonth()->month; ?>&year=<?= $month->prevMonth()->year; ?>" class="btn btn-primary">&lt;</a>
-                    <a href="/index.php?month=<?= $month->nextMonth()->month; ?>&year=<?= $month->nextMonth()->year; ?>" class="btn btn-primary">&gt;</a>
+                <!--Construction du calendrier-->
+                <?php 
+                    require './assets/src/Date/Month.php';
+                    try {
+                        $month =new App\Date\Month($_GET['month'] ?? null, $_GET['year']  ?? null); 
+                    } catch (\Exception $e) {
+                        $month = new App\Date\Month();
+                    }
+                    $start = $month->getStartingDay();
+                    $start = $start->format('N') === '1' ? $start : $month->getStartingDay()->modify('last monday');
+                    
+                ?>
+                <!--Btn nav calendrier-->
+                <div class="d-flex flex-row align-items-center justify-content-between mx-3">
+                    <h1><?= $month->toString(); ?></h1>
+                    <div>
+                        <a href="/index.php?month=<?= $month->prevMonth()->month; ?>&year=<?= $month->prevMonth()->year; ?>" class="btn btn-primary">&lt;</a>
+                        <a href="/index.php?month=<?= $month->nextMonth()->month; ?>&year=<?= $month->nextMonth()->year; ?>" class="btn btn-primary">&gt;</a>
+                    </div>
                 </div>
-            </div>
-            
+                
 
-            <!--Pour le nb de semaines-->
-            <?= $month->getWeeks(); ?>
+                <!--Pour le nb de semaines-->
+                <?= $month->getWeeks(); ?>
 
-            <table class="calendarTable calendarTable--<?= $month->getWeeks(); ?>weeks">
-                <?php for ($i = 0; $i < $month->getWeeks(); $i++): ?>
-                    <tr>
-                        <?php 
-                            foreach($month->days as $k => $day): 
-                               $date = (clone $start)->modify( "+" . ($k + $i * 7) . "days")
-                        ?>
-                        <td class="<?= $month->withinMonth($date) ? '' : 'calendarOtherMonth'; ?>">
-                            <?php if ($i === 0): ?>
-                                <div class="calendarWeekDay"><?= $day; ?></div>
-                            <?php endif; ?>
-                            <div class="calendarDay"><?= $date->format('d');?></div>
-                        </td>
-                        <?php endforeach; ?>
-                    </tr>
-                <?php endfor; ?>
-            </table>           
-       </main>
+                <table class="calendarTable calendarTable--<?= $month->getWeeks(); ?>weeks">
+                    <?php for ($i = 0; $i < $month->getWeeks(); $i++): ?>
+                        <tr>
+                            <?php 
+                                foreach($month->days as $k => $day): 
+                                $date = (clone $start)->modify( "+" . ($k + $i * 7) . "days")
+                            ?>
+                            <td class="<?= $month->withinMonth($date) ? '' : 'calendarOtherMonth'; ?>">
+                                <?php if ($i === 0): ?>
+                                    <div class="calendarWeekDay"><?= $day; ?></div>
+                                <?php endif; ?>
+                                <div class="calendarDay"><?= $date->format('d');?></div>
+                            </td>
+                            <?php endforeach; ?>
+                        </tr>
+                    <?php endfor; ?>
+                </table>           
+            </section>
+        </main>
     </body>
 </html>

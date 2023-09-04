@@ -19,6 +19,12 @@ html, body
 }
 
 /*Calendar*/
+#calendarBloc
+{
+    margin-top: 35%;
+    background-color: var(--saumon);
+}
+
 .calendarTable
 {
     width: 100%;
