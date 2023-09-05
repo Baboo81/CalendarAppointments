@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./assets/styles/normalize.css">
         <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/styles/styles.css">
+        <link rel="stylesheet" href="./assets/sass/Calendar.css">
         <link rel="stylesheet" href="./assets/sass/slider.css">
         <!--Scripts, libraries, framework JS-->
         <script src="./assets/scripts/jQuery3.7.0.js" defer></script>

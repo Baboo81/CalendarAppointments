@@ -4,13 +4,16 @@
   --brun: #d8c3a5;
   --taupe: #8e8d8a;
   --saumon: #e98074;
-  --ocre: #e85a4f; }
+  --ocre: #e85a4f;
+}
 
 body {
-  font-family: "Century Gothic", 'Lato', sans-serif; }
+  font-family: "Century Gothic", "Lato", sans-serif;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .et-hero-tabs,
 .et-slide {
@@ -22,17 +25,20 @@ a {
   position: relative;
   background: var(--beige);
   text-align: center;
-  padding: 0 2em; }
-  .et-hero-tabs h1,
-  .et-slide h1 {
-    font-size: 2rem;
-    margin: 0;
-    letter-spacing: 1rem; }
-  .et-hero-tabs h3,
-  .et-slide h3 {
-    font-size: 1rem;
-    letter-spacing: 0.3rem;
-    opacity: 0.6; }
+  padding: 0 2em;
+}
+.et-hero-tabs h1,
+.et-slide h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+.et-hero-tabs h3,
+.et-slide h3 {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.6;
+}
 
 .et-hero-tabs-container {
   display: flex;
@@ -44,10 +50,12 @@ a {
   margin-left: 61%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: var(--beige);
-  z-index: 10; }
-  .et-hero-tabs-container--top {
-    position: fixed;
-    top: 0; }
+  z-index: 10;
+}
+.et-hero-tabs-container--top {
+  position: fixed;
+  top: 0;
+}
 
 .et-hero-tab {
   display: flex;
@@ -57,11 +65,13 @@ a {
   color: #000;
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
-  font-size: 0.8rem; }
-  .et-hero-tab:hover {
-    color: white;
-    background: var(--saumon);
-    transition: all 0.5s ease; }
+  font-size: 0.8rem;
+}
+.et-hero-tab:hover {
+  color: white;
+  background: var(--taupe);
+  transition: all 0.5s ease;
+}
 
 .et-hero-tab-slider {
   position: absolute;
@@ -69,20 +79,23 @@ a {
   width: 0;
   height: 6px;
   background: var(--noir);
-  transition: left 0.3s ease; }
+  transition: left 0.3s ease;
+}
 
 .et-main {
-  margin-top: 480%; }
+  margin-top: 480%;
+}
 
 @media (min-width: 800px) {
   .et-hero-tabs h1,
   .et-slide h1 {
-    font-size: 3rem; }
+    font-size: 3rem;
+  }
   .et-hero-tabs h3,
   .et-slide h3 {
-    font-size: 1rem; }
-
+    font-size: 1rem;
+  }
   .et-hero-tab {
-    font-size: 1rem; } }
-
-/*# sourceMappingURL=slider.css.map */
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=Slider.css.map */
