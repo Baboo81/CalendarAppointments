@@ -63,11 +63,10 @@
                 <!--Construction du calendrier-->
                 <?php 
                     require './assets/src/Date/Month.php';
-                    try {
-                        $month =new App\Date\Month($_GET['month'] ?? null, $_GET['year']  ?? null); 
-                    } catch (\Exception $e) {
-                        $month = new App\Date\Month();
-                    }
+                    
+                    $month =new App\Date\Month($_GET['month'] ?? null, $_GET['year']  ?? null); 
+                   
+                   
                     $start = $month->getStartingDay();
                     $start = $start->format('N') === '1' ? $start : $month->getStartingDay()->modify('last monday');
                     
@@ -89,7 +88,7 @@
                     <?php for ($i = 0; $i < $month->getWeeks(); $i++): ?>
                         <tr>
                             <?php 
-                                foreach($month->days as $k => $day): 
+                                foreach($month->days as $k => $day): //Je part du mois et récupère les jours
                                 $date = (clone $start)->modify( "+" . ($k + $i * 7) . "days")
                             ?>
                             <td class="<?= $month->withinMonth($date) ? '' : 'calendarOtherMonth'; ?>">

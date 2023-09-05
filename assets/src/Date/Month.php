@@ -15,9 +15,9 @@ class Month {
      * Month constructor
      * @param int $month: le mois compris entre 1 et 12
      * @param int $year: l'année
-     * @throw permet de déclarer une exception \Exception
+     * @throws permet de déclarer une exception \Exception
      */
-    public function __construct(?int $month = null, ?int $year = null)
+    public function __construct(?int $month = null, ?int $year = null)// = null pour spécifier que c'est optionnel
     {
         if ($month === null || $month < 1 || $month > 12) {
             $month = intval(date ('m'));//intval est une méthode qui prend une val et l'a converti en entier 
@@ -31,6 +31,8 @@ class Month {
         if ($year < 1970) {
             throw new \exception("L'année $year est inférieur à 1970 !");
         }
+
+        //Récupération des val mois & année du constructeur:
         $this->month = $month;
         $this->year = $year;
     }
@@ -57,10 +59,10 @@ class Month {
      * @return int 
      */
     public function getWeeks (): int {
-        $start = $this->getStartingDay();
+        $start = $this->getStartingDay();//Début du mois
         $end = (clone $start)->modify('+1 month -1 day');//clone va permettre de cloner la variable $start afin d'éviter de la modifer
         $weeks = intval($end->format('W')) - intval($start->format('W')) + 1;
-
+        //var_dump($end->format('W'),$start->format('W'));
         if ($weeks < 0) {
             $weeks = intval($end->format('W'));
         }
@@ -83,7 +85,7 @@ class Month {
     {
         $month = $this->month + 1;
         $year = $this->year;
-        if ($year > 12) {
+        if ($month > 12) {
             $month = 1;
             $year += 1;
         }
@@ -96,7 +98,7 @@ class Month {
     public function prevMonth (): Month {
         $month = $this->month -1;
         $year = $this->year;
-        if ($month < 12) {
+        if ($month < 1) {
             $month = 12;
             $year -= 1;
         }
