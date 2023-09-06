@@ -9,11 +9,11 @@
             "previewLimit": 50,
             "server": "localhost",
             "port": 3306,
-            "driver": "MariaDB",
-            "name": "root",
+            "driver": "MySQL",
+            "name": "admin",
             "database": "calendar1",
-            "username": "root",
-            "askForPassword": true
+            "username": "admin",
+            "password": ""
         }
     ]
 }
