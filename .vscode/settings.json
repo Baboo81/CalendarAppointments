@@ -10,10 +10,10 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MariaDB",
-            "name": "MSSQL",
-            "database": "calendar",
-            "username": "Chris",
-            "password": ""
+            "name": "root",
+            "database": "calendar1",
+            "username": "root",
+            "askForPassword": true
         }
     ]
 }
