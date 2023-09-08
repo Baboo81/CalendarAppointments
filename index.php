@@ -55,6 +55,26 @@
         </header>
 
        <main class="container">
+            <section id="caresBloc">
+                <h1>Teinture De Cils Et Sourcils</h1>
+                <p></p>
+                <h1>Manucure</h1>
+                <p></p>
+                <h1>Epilation</h1>
+                <p></p>
+                <h1>Restructuration & Epilation Des Sourcils</h1>
+                <p></p>
+                <h1>Massages</h1>
+                <p></p>
+                <h1>Soins Du Corps</h1>
+                <p></p>
+                <h1>Beauté Des Pieds</h1>
+                <p></p>
+                <h1>Soins Du Visage</h1>
+                <p></p>
+                <h1>Diagnostique</h1>
+                <p></p>
+            </section>
             <section id="calendarBloc">
                 <nav class="navbar navbar-dark bg-primary mb-3">
                     <a href="/index.php" class="navbar-brand">Mon calendrier</a>

@@ -18,47 +18,8 @@ html, body
     align-items: center;
 }
 
-/*Calendar*/
-/*#calendarBloc
+#caresBloc
 {
-    margin-top: 35%;
-    background-color: var(--saumon);
+    margin-top: 120%;
+    color: var(--beige);
 }
-
-.calendarTable
-{
-    width: 100%;
-    height: calc(100vh - 128px);
-}
-
-.calendarTable td
-{
-    padding: 10px;
-    border: 1px solid #CCC;
-    vertical-align: top;
-    width: 14.29%;
-    height: 20%;
-}
-
-.calendarTable--6weeks td 
-{
-    height: 16.66%;
-}
-
-.calendarWeekDay
-{
-    font-weight: bold;
-    color: #000;
-    font-size: 1.2em;
-}
-
-.calendarDay
-{
-    font-size: 1.3em;
-}
-
-.calendarOtherMonth .calendarDay
-{
-    opacity: 0.3;
-}
-/*END*/
