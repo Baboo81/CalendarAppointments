@@ -57,9 +57,25 @@
        <main class="container">
             <section id="caresBloc">
                 <h1>Teinture De Cils Et Sourcils</h1>
-                <p></p>
+                    <h3>Teinture des sourcils</h3>
+                    <p>&#x1F552; 15min   15&euro;</p>
+                    <h3>Teiture des cils</h3>
+                    <p>&#x1F552; 30min  17&euro;</p>
+                    <h3>Teinture des sourcils et des cils</h3>
+                    <p>&#x1F552; 30min   26&euro;</p>
                 <h1>Manucure</h1>
-                <p></p>
+                <h3>Manucure SPA</h3>
+                <p>1h - 1h30</p>
+                <h3>Pose vernis semir-permanent SoPolish</h3>
+                <p>1h - 1h15</p>
+                <h3>Pose gel BFlex sur ongles courts</h3>
+                <p>1h30 - 1h45</p>
+                <h3>Manucure express et pose vernis LongWear</h3>
+                <p>30min</p>
+                <h3>Pédicure express et pose vernis LongWear</h3>
+                <p>30min</p>
+                <h3>Manucure</h3>
+                <p>45min - 1h15</p>
                 <h1>Epilation</h1>
                 <p></p>
                 <h1>Restructuration & Epilation Des Sourcils</h1>
