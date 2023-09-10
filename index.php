@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./assets/styles/styles.css">
         <link rel="stylesheet" href="./assets/sass/Calendar.css">
         <link rel="stylesheet" href="./assets/sass/slider.css">
+        <link rel="stylesheet" href="./assets/sass/Accordion.css">
         <!--Scripts, libraries, framework JS-->
         <script src="./assets/scripts/jQuery3.7.0.js" defer></script>
         <script src="./assets/scripts/bootstrap.bundle.min.js" defer></script>
@@ -55,99 +56,63 @@
         </header>
 
        <main class="container">
-            <section id="caresBloc">
-                <div class="list-group list-group-flush my-4">
-                    <article class="list-group-item p-4">
-                        <h1>Teinture De Cils Et Sourcils</h1>
-                            <h3>Teinture des sourcils</h3>
-                            <p>&#x1F552; 15min   15&euro;</p>
-                            <h3>Teiture des cils</h3>
-                            <p>&#x1F552; 30min  17&euro;</p>
-                            <h3>Teinture des sourcils et des cils</h3>
-                            <p>&#x1F552; 30min   26&euro;</p>
-                    </article>
-                    <article class="list-group-item p-4">
-                        <h1>Manucure</h1>
-                            <h3>Manucure SPA</h3>
-                            <p>&#x1F552; 1h - 1h30   à partir de 30&euro;</p>
-                            <h3>Pose vernis semir-permanent SoPolish</h3>
-                            <p>&#x1F552; 1h - 1h15   à partir de 35&euro;</p>
-                            <h3>Pose gel BFlex sur ongles courts</h3>
-                            <p>&#x1F552; 1h30 - 1h45      à partir de 60&euro;</p>
-                            <h3>Manucure express et pose vernis LongWear</h3>
-                            <p>&#x1F552; 30min   20&euro;</p>
-                            <h3>Pédicure express et pose vernis LongWear</h3>
-                            <p>&#x1F552; 30min   20&euro;</p>
-                            <h3>Manucure</h3>
-                            <p>&#x1F552; 45min - 1h15    à partir de 25&euro;</p>
-                    </article>
-                    <article class="list-group-item p-4">
-                        <h1>Epilation</h1>
-                            <h3>Epilation à la cire du maillot simple</h3>
-                            <p>&#x1F552; 15min   14&euro;</p>
-                            <h3>Epilation à la cire du maillot Brésilien</h3>
-                            <p>&#x1F552; 30min   24&euro;</p>
-                            <h3>Epilation des aisselles</h3>
-                            <p>&#x1F552; 15min   13&euro;</p>
-                            <h3>Epilation à la cire des 3/4jambes</h3>
-                            <p>&#x1F552; 30min   27&euro;</p>
-                            <h3>Epilation à la cire des jambes entières</h3>
-                            <p>&#x1F552; 30min   30&euro;</p>
-                            <h3>Epilation à la cire de la nuque</h3>
-                            <p>&#x1F552; 15min   6&euro;</p>
-                            <h3>Epilation à la cire du bas du dos</h3>
-                            <p>&#x1F552; 15min   12&euro;</p>
-                            <h3>Epilation du sillon inter-fessier</h3>
-                            <p>&#x1F552; 15min   12&euro;</p>
-                            <h3>Epilation à la cire des lèvres</h3>
-                            <p>&#x1F552;  15min  8&euro;</p>
-                            <h3>Epilation à la cire du front</h3>
-                            <p>&#x1F552; 15min   10&euro;</p>
-                            <h3>Epilation à la cire des joues</h3>
-                            <p>&#x1F552; 15min   10&euro;</p>
-                            <h3>Epilation à la cire des sourcils</h3>
-                            <p>&#x1F552; 15min   16&euro;</p>
-                            <h3>Épilation à la cire des avant-bras</h3>
-                            <p>&#x1F552;  15min  15&euro;</p>
-                            <h3>Épilation à la cire des bras</h3>
-                            <p>&#x1F552; 30min   21&euro;</p>
-                            <h3>Épilation à la cire des cuisses</h3>
-                            <p>&#x1F552; 30min  24&euro;</p>
-                            <h3>Épilation à la cire des demi-jambes</h3>
-                            <p>&#x1F552; 30min  21&euro;</p>
-                            <h3>Épilation à la cire du maillot échancré</h3>
-                            <p>&#x1F552; 15min  19&euro;</p>
-                            <h3>Épilation à la cire du maillot intégral</h3>
-                            <p>&#x1F552; 30min  29&euro;</p>
-                            <h3>Épilation à la cire du menton</h3>
-                            <p>&#x1F552; 15min  9&euro;</p>
-                    </article>
-                    <article>
-                        <h1>Restructuration & Epilation Des Sourcils</h1>
-                            <p></p>
-                    </article>
-                    <article>
-                        <h1>Massages</h1>
-                            <p></p>
-                    </article>
-                    <article>
-                        <h1>Soins Du Corps</h1>
-                            <p></p>
-                    </article>
-                    <article>
-                        <h1>Beauté Des Pieds</h1>
-                            <p></p>
-                    </article>
-                    <article>
-                        <h1>Soins Du Visage</h1>
-                            <p></p>
-                    </article>
-                    <article>
-                        <h1>Diagnostique</h1>
-                            <p></p>
-                    </article>
-                </div>
-                
+            <!--Accordeon-->
+                <section class="accordion" id="accordionCares">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h1>Teinture De Cils Et Sourcil</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse-show" aria-labelledby="headingOne" data-bs-parents="#accordionCares">
+                            <div class="accordion-body">
+                                <strong>Teinture des sourcils</strong>
+                                <p>&#x1F552; 15min   15&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Teiture des cils</strong>
+                                <p>&#x1F552; 30min  17&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Teinture des sourcils et des cils</strong>
+                                <p>&#x1F552; 30min  26&euro;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-controls="collapseTwo">
+                                <h1>Manucure</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionCares">
+                            <div class="accordion-body">
+                                <strong>Manucure SPA</strong>
+                                <p>&#x1F552; 1h - 1h30   à partir de 30&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Pose vernis semi-permanent SoPolish</strong>
+                                <p>&#x1F552; 1h - 1h15   à partir de 35&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Pose gel BFlex sur ongles courts</strong>
+                                <p>&#x1F552; 1h30 - 1h45 à partir de 60&euro; </p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Manucure express et pose vernis LongWear</strong>
+                                <p>&#x1F552; 30min   20&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Pédicure express et pose vernis LongWear</strong>
+                                <p>&#x1F552; 30min   20&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Manucure</strong>
+                                <p>&#x1F552; 45min - 1h15  à partir de 25&euro;</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </section>
             <section id="calendarBloc">
                 <nav class="navbar navbar-dark bg-primary mb-3">
