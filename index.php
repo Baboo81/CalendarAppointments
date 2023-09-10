@@ -56,40 +56,98 @@
 
        <main class="container">
             <section id="caresBloc">
-                <h1>Teinture De Cils Et Sourcils</h1>
-                    <h3>Teinture des sourcils</h3>
-                    <p>&#x1F552; 15min   15&euro;</p>
-                    <h3>Teiture des cils</h3>
-                    <p>&#x1F552; 30min  17&euro;</p>
-                    <h3>Teinture des sourcils et des cils</h3>
-                    <p>&#x1F552; 30min   26&euro;</p>
-                <h1>Manucure</h1>
-                <h3>Manucure SPA</h3>
-                <p>1h - 1h30</p>
-                <h3>Pose vernis semir-permanent SoPolish</h3>
-                <p>1h - 1h15</p>
-                <h3>Pose gel BFlex sur ongles courts</h3>
-                <p>1h30 - 1h45</p>
-                <h3>Manucure express et pose vernis LongWear</h3>
-                <p>30min</p>
-                <h3>Pédicure express et pose vernis LongWear</h3>
-                <p>30min</p>
-                <h3>Manucure</h3>
-                <p>45min - 1h15</p>
-                <h1>Epilation</h1>
-                <p></p>
-                <h1>Restructuration & Epilation Des Sourcils</h1>
-                <p></p>
-                <h1>Massages</h1>
-                <p></p>
-                <h1>Soins Du Corps</h1>
-                <p></p>
-                <h1>Beauté Des Pieds</h1>
-                <p></p>
-                <h1>Soins Du Visage</h1>
-                <p></p>
-                <h1>Diagnostique</h1>
-                <p></p>
+                <div class="list-group list-group-flush my-4">
+                    <article class="list-group-item p-4">
+                        <h1>Teinture De Cils Et Sourcils</h1>
+                            <h3>Teinture des sourcils</h3>
+                            <p>&#x1F552; 15min   15&euro;</p>
+                            <h3>Teiture des cils</h3>
+                            <p>&#x1F552; 30min  17&euro;</p>
+                            <h3>Teinture des sourcils et des cils</h3>
+                            <p>&#x1F552; 30min   26&euro;</p>
+                    </article>
+                    <article class="list-group-item p-4">
+                        <h1>Manucure</h1>
+                            <h3>Manucure SPA</h3>
+                            <p>&#x1F552; 1h - 1h30   à partir de 30&euro;</p>
+                            <h3>Pose vernis semir-permanent SoPolish</h3>
+                            <p>&#x1F552; 1h - 1h15   à partir de 35&euro;</p>
+                            <h3>Pose gel BFlex sur ongles courts</h3>
+                            <p>&#x1F552; 1h30 - 1h45      à partir de 60&euro;</p>
+                            <h3>Manucure express et pose vernis LongWear</h3>
+                            <p>&#x1F552; 30min   20&euro;</p>
+                            <h3>Pédicure express et pose vernis LongWear</h3>
+                            <p>&#x1F552; 30min   20&euro;</p>
+                            <h3>Manucure</h3>
+                            <p>&#x1F552; 45min - 1h15    à partir de 25&euro;</p>
+                    </article>
+                    <article class="list-group-item p-4">
+                        <h1>Epilation</h1>
+                            <h3>Epilation à la cire du maillot simple</h3>
+                            <p>&#x1F552; 15min   14&euro;</p>
+                            <h3>Epilation à la cire du maillot Brésilien</h3>
+                            <p>&#x1F552; 30min   24&euro;</p>
+                            <h3>Epilation des aisselles</h3>
+                            <p>&#x1F552; 15min   13&euro;</p>
+                            <h3>Epilation à la cire des 3/4jambes</h3>
+                            <p>&#x1F552; 30min   27&euro;</p>
+                            <h3>Epilation à la cire des jambes entières</h3>
+                            <p>&#x1F552; 30min   30&euro;</p>
+                            <h3>Epilation à la cire de la nuque</h3>
+                            <p>&#x1F552; 15min   6&euro;</p>
+                            <h3>Epilation à la cire du bas du dos</h3>
+                            <p>&#x1F552; 15min   12&euro;</p>
+                            <h3>Epilation du sillon inter-fessier</h3>
+                            <p>&#x1F552; 15min   12&euro;</p>
+                            <h3>Epilation à la cire des lèvres</h3>
+                            <p>&#x1F552;  15min  8&euro;</p>
+                            <h3>Epilation à la cire du front</h3>
+                            <p>&#x1F552; 15min   10&euro;</p>
+                            <h3>Epilation à la cire des joues</h3>
+                            <p>&#x1F552; 15min   10&euro;</p>
+                            <h3>Epilation à la cire des sourcils</h3>
+                            <p>&#x1F552; 15min   16&euro;</p>
+                            <h3>Épilation à la cire des avant-bras</h3>
+                            <p>&#x1F552;  15min  15&euro;</p>
+                            <h3>Épilation à la cire des bras</h3>
+                            <p>&#x1F552; 30min   21&euro;</p>
+                            <h3>Épilation à la cire des cuisses</h3>
+                            <p>&#x1F552; 30min  24&euro;</p>
+                            <h3>Épilation à la cire des demi-jambes</h3>
+                            <p>&#x1F552; 30min  21&euro;</p>
+                            <h3>Épilation à la cire du maillot échancré</h3>
+                            <p>&#x1F552; 15min  19&euro;</p>
+                            <h3>Épilation à la cire du maillot intégral</h3>
+                            <p>&#x1F552; 30min  29&euro;</p>
+                            <h3>Épilation à la cire du menton</h3>
+                            <p>&#x1F552; 15min  9&euro;</p>
+                    </article>
+                    <article>
+                        <h1>Restructuration & Epilation Des Sourcils</h1>
+                            <p></p>
+                    </article>
+                    <article>
+                        <h1>Massages</h1>
+                            <p></p>
+                    </article>
+                    <article>
+                        <h1>Soins Du Corps</h1>
+                            <p></p>
+                    </article>
+                    <article>
+                        <h1>Beauté Des Pieds</h1>
+                            <p></p>
+                    </article>
+                    <article>
+                        <h1>Soins Du Visage</h1>
+                            <p></p>
+                    </article>
+                    <article>
+                        <h1>Diagnostique</h1>
+                            <p></p>
+                    </article>
+                </div>
+                
             </section>
             <section id="calendarBloc">
                 <nav class="navbar navbar-dark bg-primary mb-3">
