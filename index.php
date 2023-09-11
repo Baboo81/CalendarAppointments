@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./assets/sass/Calendar.css">
         <link rel="stylesheet" href="./assets/sass/slider.css">
         <link rel="stylesheet" href="./assets/sass/Accordion.css">
+        <link rel="stylesheet" href="./assets/sass/Carousel.css">
         <!--Scripts, libraries, framework JS-->
         <script src="./assets/scripts/jQuery3.7.0.js" defer></script>
         <script src="./assets/scripts/bootstrap.bundle.min.js" defer></script>
@@ -56,7 +57,37 @@
         </header>
 
        <main class="container">
-            <!--Accordeon-->
+                <!--Slider Pictures-->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img class="d-block w-100" src="./assets/img/img1.webp" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="./assets/img/img2.webp" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="./assets/img/img3.webp" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+                
+                <!--Slider Pictures END-->
+                <h1>Les soins</h1>
+                <!--Accordeon-->
                 <section class="accordion" id="accordionCares">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -335,16 +366,56 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="accordion-body">
+                                <strong>Soin du visage pour peaux mixtes à grasses / Menthe (-18ans)</strong>
+                                <p>&#x1F552; 1h15   50&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <strong>Soin du visage EE à l'orange sanguine</strong>
+                                        </button>
+                                    </h3>
+                                    <div id="collapseOne" class="accordion-collapse collapse-show" aria-labelledby="headingOne" data-bs-parents="#accordionCares">
+                                        <div class="accordion-body">
+                                            <strong>Soin du visage à l'orange sanguine (Ancienne formule)</strong>
+                                            <p>&#x1F552; 45min   45&euro;</p>
+                                        </div>
+                                        <div class="accordion-body">
+                                            <strong>Soin du visage à l'orange sanguine (Nouvelle formule)</strong>
+                                            <p>&#x1F552; 45min  45&euro;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingElf">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseElf" aria-expanded="false" aria-controls="collapseElf">
+                                    <h1>Diagnostique</h1>
+                                </button>
+                            </h2>
+                            <div id="collapseElf" class="accordion-collapse collapse" aria-labelledby="headingElf" data-bs-parent="#accordionCares">
+                                <div class="accordion-body">
+                                    <strong>Pédicure végétale "Calluspeeling" (Calluspeeling)</strong>
+                                    <p>&#x1F552; 1h15   35&euro;</p>
+                                </div>
+                                <div class="accordion-body">
+                                    <strong>Pédicure végétale "Calluspeeling" (Calluspeeling & pose vernis)</strong>
+                                    <p>&#x1F552; 1h30   40&euro;</p>
+                                </div>
+                            </div>
+                        </div>
                 </section>
             </section>
+            <!--Accordion END-->
+            <!--Construction du calendrier-->
             <section id="calendarBloc">
                 <nav class="navbar navbar-dark bg-primary mb-3">
                     <a href="/index.php" class="navbar-brand">Mon calendrier</a>
                 </nav>
 
-                <!--Construction du calendrier-->
                 <?php 
                     require './assets/src/Date/Month.php';
                     
@@ -386,6 +457,7 @@
                     <?php endfor; ?>
                 </table>           
             </section>
+            <!--Calendar END-->
         </main>
     </body>
 </html>
