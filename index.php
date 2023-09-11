@@ -81,7 +81,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-controls="collapseTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <h1>Manucure</h1>
                             </button>
                         </h2>
@@ -109,6 +109,231 @@
                             <div class="accordion-body">
                                 <strong>Manucure</strong>
                                 <p>&#x1F552; 45min - 1h15  à partir de 25&euro;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h1>Épilation</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parents="#accordionCares">
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire du maillot simple</strong>
+                                <p>&#x1F552; 15min   14&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire du maillot Brésillien</strong>
+                                <p>&#x1F552; 30min  24&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des aisselles</strong>
+                                <p>&#x1F552; 15min  13&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des 3/4 jambes</strong>
+                                <p>&#x1F552; 30min  27&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des jambes entières</strong>
+                                <p>&#x1F552; 45min  30&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire de la nuque</strong>
+                                <p>&#x1F552; 15min  6&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire du bas du dos</strong>
+                                <p>&#x1F552; 15min  12&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire du sillon inter-fessier</strong>
+                                <p>&#x1F552; 15min  12&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des lèvres</strong>
+                                <p>&#x1F552; 15min  8&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire du front</strong>
+                                <p>&#x1F552; 15min  10&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des joues</strong>
+                                <p>&#x1F552; 15min  10&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des sourcils</strong>
+                                <p>&#x1F552; 15min 16&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des avant-bras</strong>
+                                <p>&#x1F552; 15min  15&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des bras</strong>
+                                <p>&#x1F552; 30min  21&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des cuisses</strong>
+                                <p>&#x1F552; 30min  24&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire des demi-jambes</strong>
+                                <p>&#x1F552; 30min  21&euro;</p>
+                            </div>
+                            <div class="accprdion-body">
+                                <strong>Épilation à la cire du maillot échancré</strong>
+                                <p>&#x1F552; 15min  19&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire du maillot integral</strong>
+                                <p>&#x1F552; 30min  20&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Épilation à la cire du menton</strong>
+                                <p>&#x1F552; 15min  9&euro;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <h1>Restructuration & Épilation Des Sourcils</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionCares">
+                            <div class="accordion-body">
+                                <strong>Entretien des sourcils</strong>
+                                <p>&#x1F552; 15min    11&euro;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <h1>Massage</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionCares">
+                            <div class="accordion-body">
+                                <strong>Massage du dos et de la nuque</strong>
+                                <p>&#x1F552; 30min  35&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Massage du dos et des jambes</strong>
+                                <p>&#x1F552; 45min  50&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Massage du corps</strong>
+                                <p>&#x1F552; 1h     65&euro; </p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Massage du corps et du visage</strong>
+                                <p>&#x1F552; 1h30   95&euro;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <h1>Soin Du Corps</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionCares">
+                            <div class="accordion-body">
+                                <strong>Gommage du corps</strong>
+                                <p>&#x1F552; 45min   45&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Gommage & Enveloppement du corps</strong>
+                                <p>&#x1F552; 1h30    85&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Gommage du corps & Massage relaxant (1h)</strong>
+                                <p>&#x1F552; 1h45   100&euro; </p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Massage & Enveloppement du corps</strong>
+                                <p>&#x1F552; 1h45   105&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Gommage du corps + Enveloppement + Massage relaxant</strong>
+                                <p>&#x1F552; 2h30   130&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Enveloppement du corps</strong>
+                                <p>&#x1F552; 45min   50&euro;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <h1>Beauté Des Pieds</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionCares">
+                            <div class="accordion-body">
+                                <strong>Pédicure Spa</strong>
+                                <p>&#x1F552; 1h15 - 1h45 à partir de 35&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Pose vernis semi-permanent SoPolish pieds</strong>
+                                <p>&#x1F552; 1h - 1h15   à partir de 35&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Pédicure</strong>
+                                <p>&#x1F552; 1h - 1h45   à partir de 30&euro; </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                <h1>Soin Du Visage</h1>
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionCares">
+                            <div class="accordion-body">
+                                <strong>Soin du visage pour peaux mixtes à grasses / Menthe - citron</strong>
+                                <p>&#x1F552; 1h30    55&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Soin du visage Nutri-sensibilité / Muesli</strong>
+                                <p>&#x1F552; 1h30    75&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Soin du visage Hydralock / Aloe-vera</strong>
+                                <p>&#x1F552; 1h30    75&euro; </p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Soin du visage Pro-Áge / Spiruline</strong>
+                                <p>&#x1F552; 1h30    85&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <strong>Soin du visage Organics / Soin éclat fraîcheur certifié biologique</strong>
+                                <p>&#x1F552; 45min   50&euro;</p>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <strong>Soin du visage Saisonnier / Soin coup d'éclat relaxant</strong>
+                                        </button>
+                                    </h3>
+                                    <div id="collapseOne" class="accordion-collapse collapse-show" aria-labelledby="headingOne" data-bs-parents="#accordionCares">
+                                        <div class="accordion-body">
+                                            <strong>Soin du visage Saisonnier / Soin coup d'éclat hydratant relaxant (Automne/Hiver '22: Orange & baies de goji)</strong>
+                                            <p>&#x1F552; 1h30   56&euro;</p>
+                                        </div>
+                                        <div class="accordion-body">
+                                            <strong>Soin du visage Saisonnier / Soin coup d'éclat hydratant relaxant (Printemps/Été '23: Citron & rhubarbe)</strong>
+                                            <p>&#x1F552; 1h30  56&euro;</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
