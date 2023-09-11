@@ -35,7 +35,7 @@
         <!-- Main -->
             <div class="et-main">
                 <section class="et-slide" id="tab-es6">
-                    <img src="./assets/img/svg/Logo.svg" alt="Logo pissenlit">
+                    <img id="logo" src="./assets/img/svg/Logo.svg" alt="Logo pissenlit">
                 </section>
                 <section class="et-slide" id="tab-flexbox">
                     <h1>Espace beauté</h1>
@@ -56,7 +56,7 @@
             </div>
         </header>
 
-       <main class="container">
+       <main class="container-fluid">
                 <!--Slider Pictures-->
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">

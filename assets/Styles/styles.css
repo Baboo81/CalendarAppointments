@@ -1,14 +1,18 @@
 :root
 {
+    --noir : #000;
     --beige : #eae7dc;
     --brun : #d8c3a5;
     --taupe : #8e8d8a;
     --saumon : #e98074;
     --ocre : #e85a4f;
+    --grey : #8e8e8e;
+    --lavander : #9583ec;
 }
 
 html, body 
 {
+    box-sizing: border-box;
     font-family:"Century Gothic", 'Lato', sans-serif;
     background-color: var(--taupe);
     width: 100%;
@@ -16,6 +20,11 @@ html, body
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#logo
+{
+    margin-top: 165%;
 }
 
 #caresBloc

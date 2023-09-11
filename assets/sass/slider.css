@@ -5,6 +5,8 @@
   --taupe: #8e8d8a;
   --saumon: #e98074;
   --ocre: #e85a4f;
+  --grey: #8e8e8e;
+  --lavander: #9583ec;
 }
 
 body {
@@ -23,7 +25,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: var(--beige);
+  background: var(--lavander);
   text-align: center;
   padding: 0 2em;
 }
@@ -49,7 +51,7 @@ a {
   height: 70px;
   margin-left: 61%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: var(--beige);
+  background: var(--lavander);
   z-index: 10;
 }
 .et-hero-tabs-container--top {
