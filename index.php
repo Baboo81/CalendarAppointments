@@ -25,7 +25,6 @@
                 <h1>Institut Soin de Soie</h1>
                 <div class="et-hero-tabs-container">
                     <a class="et-hero-tab" href="#tab-es6">Accueil</a>
-                    <a class="et-hero-tab" href="#tab-flexbox">World</a>
                     <a class="et-hero-tab" href="#tab-react">Soins</a>
                     <a class="et-hero-tab" href="#tab-angular">Contact</a>
                     <a class="et-hero-tab" href="#tab-other">Rendez-vous</a>
@@ -36,10 +35,6 @@
             <div class="et-main">
                 <section class="et-slide" id="tab-es6">
                     <img id="logo" src="./assets/img/svg/Logo.svg" alt="Logo pissenlit">
-                </section>
-                <section class="et-slide" id="tab-flexbox">
-                    <h1>Espace beauté</h1>
-                    <h3>cocoon</h3>
                 </section>
                 <section class="et-slide" id="tab-react">
                     <h1>Soins</h1>
@@ -86,7 +81,7 @@
                 </div>
                 
                 <!--Slider Pictures END-->
-                <h1>Les soins</h1>
+                <h1 id="title1" class="p-4">Les soins</h1>
                 <!--Accordeon-->
                 <section class="accordion" id="accordionCares">
                     <div class="accordion-item">

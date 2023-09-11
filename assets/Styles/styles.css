@@ -27,6 +27,13 @@ html, body
     margin-top: 165%;
 }
 
+#title1
+{
+    font-size: 3em;
+    color: var(--beige);
+    text-align: center;
+}
+
 #caresBloc
 {
     margin-top: 120%;
