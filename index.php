@@ -15,7 +15,7 @@
         <script src="./assets/scripts/jQuery3.7.0.js" defer></script>
         <script src="./assets/scripts/bootstrap.bundle.min.js" defer></script>
         <script src="./assets/scripts/main.js" defer></script>
-        <script src="./assets/scripts/slider.js" defer></script>
+        <script src="./assets/scripts/Slider.js" defer></script>
         <title>Calendar</title>
     </head>
     <body>
@@ -54,30 +54,30 @@
        <main class="container-fluid">
                 <!--Slider Pictures-->
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img class="d-block w-100" src="./assets/img/img1.webp" alt="First slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./assets/img/img1.webp" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./assets/img/img2.webp" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./assets/img/img3.webp" alt="Third slide">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/img/img2.webp" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/img/img3.webp" alt="Third slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
                 
                 <!--Slider Pictures END-->
@@ -405,6 +405,18 @@
                 </section>
             </section>
             <!--Accordion END-->
+            
+            <!--Contact card-->
+            <section class="card mt-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
+                <div class="card-body">
+                    <h5 class="card-title">Contactez-moi</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eligendi dolor adipisci, harum vitae expedita.</p>
+                    <a href="#" class="btn btn-primary">Envoyez moi un email</a>
+                </div>
+            </section>
+            <!--Contact card END-->
+
             <!--Construction du calendrier-->
             <section id="calendarBloc">
                 <nav class="navbar navbar-dark bg-primary mb-3">
