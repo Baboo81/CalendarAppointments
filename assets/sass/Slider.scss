@@ -7,6 +7,7 @@
     --saumon : #e98074;
     --ocre : #e85a4f;
     --grey : #8e8e8e;
+    --pink : #f8d1ef;
     --lavander : #9583ec;
 }
 body 
@@ -27,7 +28,7 @@ a
     align-items: center;
     height: 100vh;
     position: relative;
-    background: var(--lavander);
+    background: var(--pink);
     text-align: center;
     padding: 0 2em;
     h1 {
@@ -52,7 +53,7 @@ a
     height: 70px;
     margin-left: 61%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    background: var(--lavander);
+    background: var(--pink);
     z-index: 10;
     &--top {
         position: fixed;
