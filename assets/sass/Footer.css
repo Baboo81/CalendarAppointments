@@ -1,0 +1,17 @@
+:root {
+  --noir: #000;
+  --beige: #eae7dc;
+  --brun: #d8c3a5;
+  --taupe: #8e8d8a;
+  --saumon: #e98074;
+  --ocre: #e85a4f;
+  --grey: #8e8e8e;
+  --pink: #f8d1ef;
+  --lavander: #9583ec;
+}
+
+footer {
+  height: 40%;
+  width: 100%;
+  background-color: var(--lavander);
+}/*# sourceMappingURL=Footer.css.map */

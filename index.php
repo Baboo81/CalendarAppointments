@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="./assets/sass/slider.css">
         <link rel="stylesheet" href="./assets/sass/Accordion.css">
         <link rel="stylesheet" href="./assets/sass/Carousel.css">
+        <link rel="stylesheet" href="./assets/sass/Footer.css">
         <!--Scripts, libraries, framework JS-->
         <script src="./assets/scripts/jQuery3.7.0.js" defer></script>
         <script src="./assets/scripts/bootstrap.bundle.min.js" defer></script>
@@ -466,5 +467,10 @@
             </section>
             <!--Calendar END-->
         </main>
+        <!--
+        <footer class="container d-flex">
+            
+        </footer>
+        -->
     </body>
 </html>
