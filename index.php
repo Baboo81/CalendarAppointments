@@ -65,7 +65,7 @@
                             <img class="d-block w-100" src="./assets/img/img1.webp" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/img/img2.webp" alt="Second slide">
+                            <img class="d-block w-100" src="./assets/img/img4.webp" alt="Second slide">
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="./assets/img/img3.webp" alt="Third slide">
@@ -408,12 +408,13 @@
             <!--Accordion END-->
             
             <!--Contact card-->
-            <section class="card mt-4" style="width: 18rem;">
+            <section class="card mt-4" style="width: 50rem;">
                 <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
                 <div class="card-body">
                     <h5 class="card-title">Contactez-moi</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eligendi dolor adipisci, harum vitae expedita.</p>
-                    <a href="#" class="btn btn-primary">Envoyez moi un email</a>
+                    <!--<a href="#" class="btn btn-primary">Envoyez moi un email</a>-->
+                    <button id="btn" type="button">Envoyez-moi un mail</button>
                 </div>
             </section>
             <!--Contact card END-->
