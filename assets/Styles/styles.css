@@ -86,13 +86,7 @@ html, body
     font-size: 4.5em;
     color: var(--pink);
     text-align: center;
-    
-}
-
-#caresBloc
-{
-    margin-top: 120%;
-    color: var(--beige);
+    margin-top: -150%;
 }
 
 #btn
