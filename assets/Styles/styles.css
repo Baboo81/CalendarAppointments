@@ -15,12 +15,25 @@ html, body
 {
     box-sizing: border-box;
     font-family:"Century Gothic", 'Lato', sans-serif;
-    background-color: var(--taupe);
+    background-color: var(--noir);
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#accueil
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: var(--beige);
+    text-align: center;
+    padding: 0 2em;
 }
 
 #logo
@@ -40,11 +53,6 @@ html, body
 {
     margin-top: 120%;
     color: var(--beige);
-}
-
-#card
-{
-
 }
 
 #btn

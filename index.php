@@ -27,9 +27,9 @@
                 <h1>Institut Soin de Soie</h1>
                 <div class="et-hero-tabs-container">
                     <a class="et-hero-tab" href="#tab-es6">Accueil</a>
-                    <a class="et-hero-tab" href="#tab-react">Soins</a>
-                    <a class="et-hero-tab" href="#tab-angular">Contact</a>
-                    <a class="et-hero-tab" href="#tab-other">Rendez-vous</a>
+                    <a class="et-hero-tab" href="#tab-soins">Soins</a>
+                    <a class="et-hero-tab" href="#tab-contact">Contact</a>
+                    <a class="et-hero-tab" href="#tab-rendezVous">Rendez-vous</a>
                     <span class="et-hero-tab-slider"></span>
                 </div>
             </section>
@@ -38,15 +38,15 @@
                 <section class="et-slide" id="tab-es6">
                     <img id="logo" src="./assets/img/svg/Logo.svg" alt="Logo pissenlit">
                 </section>
-                <section class="et-slide" id="tab-react">
+                <section class="et-slide" id="tab-soins">
                     <h1>Soins</h1>
                     <h3>Soins & tarifs</h3>
                 </section>
-                <section class="et-slide" id="tab-angular">
+                <section class="et-slide" id="tab-contact">
                     <h1>Contact</h1>
                     <h3>Adresse ...</h3>
                 </section>
-                <section class="et-slide" id="tab-other">
+                <section class="et-slide" id="rendezVous">
                     <h1>Rendez-vous</h1>
                     <h3>En quelques clics prenez rendez-vous</h3>
                 </section>
@@ -54,8 +54,9 @@
         </header>
 
        <main class="container-fluid">
-                <!--Slider Pictures-->
-                <section class="Slideshow">
+            <section id="accueil">
+                 <!--Slider Pictures-->
+                 <section class="Slideshow">
                     <div class="Slideshow-Content">
                         <img src="./assets/img/img1.webp" alt="" />
                         <img src="./assets/img/img2.webp" alt="" />
@@ -64,6 +65,9 @@
                     </div>
                 </section>
                 <!--Slider Pictures END-->
+            </section>
+
+            <section id="soins">
                 <div class="d-block mt-4">
                     <h1 id="title1" class="p-4">Les soins</h1>
                 </div>
@@ -390,72 +394,71 @@
                 </section>
             </section>
             <!--Accordion END-->
-            
-            <!--Contact card-->
-            <section id="card" class="card mt-4" style="width: 25rem;">
-                <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
-                <div class="card-body">
-                    <h5 class="card-title">Contactez-moi</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eligendi dolor adipisci, harum vitae expedita.</p>
-                    <!--<a href="#" class="btn btn-primary">Envoyez moi un email</a>-->
-                    <button id="btn" type="button">Envoyez-moi un mail</button>
-                </div>
             </section>
-            <!--Contact card END-->
 
-            <!--Construction du calendrier-->
-            <section id="calendarBloc" class="p-4">
-                <nav class="navbar navbar-dark bg-primary mb-3">
-                    <a href="/index.php" class="navbar-brand">Agenda</a>
-                </nav>
-
-                <?php 
-                    require './assets/src/Date/Month.php';
-                    
-                    $month =new App\Date\Month($_GET['month'] ?? null, $_GET['year']  ?? null); 
-                   
-                   
-                    $start = $month->getStartingDay();
-                    $start = $start->format('N') === '1' ? $start : $month->getStartingDay()->modify('last monday');
-                    
-                ?>
-                <!--Btn nav calendrier-->
-                <div class="d-flex flex-row align-items-center justify-content-between mx-3">
-                    <h1><?= $month->toString(); ?></h1>
-                    <div>
-                        <a href="/index.php?month=<?= $month->prevMonth()->month; ?>&year=<?= $month->prevMonth()->year; ?>" class="btn btn-primary">&lt;</a>
-                        <a href="/index.php?month=<?= $month->nextMonth()->month; ?>&year=<?= $month->nextMonth()->year; ?>" class="btn btn-primary">&gt;</a>
+            <section id="contact">
+                <!--Contact card-->
+                <section id="card" class="card mt-4" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
+                    <div class="card-body">
+                        <h5 class="card-title">Contactez-moi</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eligendi dolor adipisci, harum vitae expedita.</p>
+                        <button id="btn" type="button">Envoyez-moi un mail</button>
                     </div>
-                </div>
-                
-
-                <!--Pour le nb de semaines-->
-                <?= $month->getWeeks(); ?>
-
-                <table class="calendarTable calendarTable--<?= $month->getWeeks(); ?>weeks">
-                    <?php for ($i = 0; $i < $month->getWeeks(); $i++): ?>
-                        <tr>
-                            <?php 
-                                foreach($month->days as $k => $day): //Je part du mois et récupère les jours
-                                $date = (clone $start)->modify( "+" . ($k + $i * 7) . "days")
-                            ?>
-                            <td class="<?= $month->withinMonth($date) ? '' : 'calendarOtherMonth'; ?>">
-                                <?php if ($i === 0): ?>
-                                    <div class="calendarWeekDay"><?= $day; ?></div>
-                                <?php endif; ?>
-                                <div class="calendarDay"><?= $date->format('d');?></div>
-                            </td>
-                            <?php endforeach; ?>
-                        </tr>
-                    <?php endfor; ?>
-                </table>           
+                </section>
+                <!--Contact card END-->
             </section>
-            <!--Calendar END-->
 
-            <!-- Footer -->
-        
-        <!-- Footer END -->
-         
+            <section id="rdv">
+                <!--Construction du calendrier-->
+                <section id="calendarBloc" class="p-4">
+                    <nav class="navbar navbar-dark bg-primary mb-3">
+                        <a href="/index.php" class="navbar-brand">Agenda</a>
+                    </nav>
+
+                    <?php 
+                        require './assets/src/Date/Month.php';
+                        
+                        $month =new App\Date\Month($_GET['month'] ?? null, $_GET['year']  ?? null); 
+                    
+                    
+                        $start = $month->getStartingDay();
+                        $start = $start->format('N') === '1' ? $start : $month->getStartingDay()->modify('last monday');
+                        
+                    ?>
+                    <!--Btn nav calendrier-->
+                    <div class="d-flex flex-row align-items-center justify-content-between mx-3">
+                        <h1><?= $month->toString(); ?></h1>
+                        <div>
+                            <a href="/index.php?month=<?= $month->prevMonth()->month; ?>&year=<?= $month->prevMonth()->year; ?>" class="btn btn-primary">&lt;</a>
+                            <a href="/index.php?month=<?= $month->nextMonth()->month; ?>&year=<?= $month->nextMonth()->year; ?>" class="btn btn-primary">&gt;</a>
+                        </div>
+                    </div>
+                    
+
+                    <!--Pour le nb de semaines-->
+                    <?= $month->getWeeks(); ?>
+
+                    <table class="calendarTable calendarTable--<?= $month->getWeeks(); ?>weeks">
+                        <?php for ($i = 0; $i < $month->getWeeks(); $i++): ?>
+                            <tr>
+                                <?php 
+                                    foreach($month->days as $k => $day): //Je part du mois et récupère les jours
+                                    $date = (clone $start)->modify( "+" . ($k + $i * 7) . "days")
+                                ?>
+                                <td class="<?= $month->withinMonth($date) ? '' : 'calendarOtherMonth'; ?>">
+                                    <?php if ($i === 0): ?>
+                                        <div class="calendarWeekDay"><?= $day; ?></div>
+                                    <?php endif; ?>
+                                    <div class="calendarDay"><?= $date->format('d');?></div>
+                                </td>
+                                <?php endforeach; ?>
+                            </tr>
+                        <?php endfor; ?>
+                    </table>           
+                </section>
+                <!--Calendar END-->
+            </section>   
         </main>
     </body>
 </html>
