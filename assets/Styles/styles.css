@@ -41,10 +41,15 @@ html, body
     color: var(--beige);
 }
 
+#card
+{
+
+}
+
 #btn
 {
-    height: 5em;
-    width: 10em;
+    height: 4em;
+    width: 12em;
     color: var(--grey);
     font-size: .8em;
     font-weight: bold;
@@ -57,5 +62,5 @@ html, body
 {
     background-color: var(--lavander);
     color: var(--beige);
-    border: solid 2px var(--pink);
+    border: solid 2px var(--beige);
 }

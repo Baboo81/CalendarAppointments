@@ -54,7 +54,7 @@
 
        <main class="container-fluid">
                 <!--Slider Pictures-->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide border" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -84,7 +84,7 @@
                 <!--Slider Pictures END-->
                 <h1 id="title1" class="p-4">Les soins</h1>
                 <!--Accordeon-->
-                <section class="accordion" id="accordionCares">
+                <section class="accordion p-4" id="accordionCares">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -408,7 +408,7 @@
             <!--Accordion END-->
             
             <!--Contact card-->
-            <section class="card mt-4" style="width: 50rem;">
+            <section id="card" class="card mt-4" style="width: 25rem;">
                 <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
                 <div class="card-body">
                     <h5 class="card-title">Contactez-moi</h5>
@@ -422,7 +422,7 @@
             <!--Construction du calendrier-->
             <section id="calendarBloc" class="p-4">
                 <nav class="navbar navbar-dark bg-primary mb-3">
-                    <a href="/index.php" class="navbar-brand">Mon calendrier</a>
+                    <a href="/index.php" class="navbar-brand">Agenda</a>
                 </nav>
 
                 <?php 
