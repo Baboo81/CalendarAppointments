@@ -23,7 +23,34 @@ html, body
     align-items: center;
 }
 
-#accueil
+#accueil 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: var(--beige);
+    text-align: center;
+    padding: 0 2em;
+    margin-top: 220%;
+}
+
+#soins
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: var(--noir);
+    text-align: center;
+    padding: 0 2em;
+}
+
+#contact
 {
     display: flex;
     flex-direction: column;
@@ -36,6 +63,19 @@ html, body
     padding: 0 2em;
 }
 
+#rdv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: var(--noir);
+    text-align: center;
+    padding: 0 2em;
+}
+
 #logo
 {
     margin-top: 165%;
@@ -44,7 +84,7 @@ html, body
 #title1
 {
     font-size: 4.5em;
-    color: var(--beige);
+    color: var(--pink);
     text-align: center;
     
 }
