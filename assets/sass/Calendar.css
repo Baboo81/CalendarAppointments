@@ -15,6 +15,8 @@ body {
 }
 
 #calendarBloc {
+  height: 60em;
+  width: 75em;
   margin-top: 35%;
   background-color: var(--pink);
 }
