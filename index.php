@@ -64,7 +64,9 @@
                     </div>
                 </section>
                 <!--Slider Pictures END-->
-                <h1 id="title1" class="p-4">Les soins</h1>
+                <div class="d-block mt-4">
+                    <h1 id="title1" class="p-4">Les soins</h1>
+                </div>
                 <!--Accordeon-->
                 <section class="accordion p-4" id="accordionCares">
                     <div class="accordion-item">
