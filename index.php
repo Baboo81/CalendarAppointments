@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/styles/styles.css">
         <link rel="stylesheet" href="./assets/sass/Calendar.css">
+        <link rel="stylesheet" href="./assets/sass/Card.css">
         <link rel="stylesheet" href="./assets/sass/slider.css">
         <link rel="stylesheet" href="./assets/sass/Accordion.css">
         <link rel="stylesheet" href="./assets/sass/Carousel.css">

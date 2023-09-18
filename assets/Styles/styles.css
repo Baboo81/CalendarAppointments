@@ -34,23 +34,10 @@ html, body
     background: var(--beige);
     text-align: center;
     padding: 0 2em;
-    margin-top: 220%;
+    margin-top: 190%;
 }
 
 #soins
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    background: var(--noir);
-    text-align: center;
-    padding: 0 2em;
-}
-
-#contact
 {
     display: flex;
     flex-direction: column;
@@ -63,15 +50,28 @@ html, body
     padding: 0 2em;
 }
 
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    background: var(--beige);
+    text-align: center;
+    padding: 0 2em;
+}
+
 #rdv
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 122.5vh;
     position: relative;
-    background: var(--noir);
+    background: var(--beige);
     text-align: center;
     padding: 0 2em;
 }
