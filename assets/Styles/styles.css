@@ -45,10 +45,6 @@ html, body
     color: var(--taupe);
     text-align: left;
     margin-left: -12%;
-}
-
-span
-{
     border-right: solid 2px var(--taupe);
 }
 
