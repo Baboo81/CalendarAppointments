@@ -18,7 +18,7 @@
         <script src="./assets/scripts/jQuery3.7.0.js" defer></script>
         <script src="./assets/scripts/bootstrap.bundle.min.js" defer></script>
         <script src="./assets/scripts/main.js" defer></script>
-        <script src="./assets/scripts/Slider.js" defer></script>
+        <script src="./assets/scripts/slider.js" defer></script>
         <script src="./assets/scripts/carousel.js" defer></script>
         <title>Calendar</title>
     </head>
@@ -57,10 +57,20 @@
 
        <main class="container-fluid">
             <section id="accueil">
-                <!--Animation dandelion-->
-                   
-                <!--Animation END-->
                 <div class="d-flex">
+                    <!--Animation dandelion-->
+                    <div id="dandelionBloc">
+                        <div>
+                            <img id="dandelion1" src="./assets/img/svg/dandelion1.svg" alt="pétale de pissenlit">
+                        </div>
+                        <div>
+                            <img id="dandelion2" src="./assets/img/svg/dandelion2.svg" alt="pétale de pissenlit">
+                        </div>
+                        <div>
+                            <img id="dandelion3" src="./assets/img/svg/dandelion3.svg" alt="pétale de pissenlit">
+                        </div>
+                    </div>
+                    <!--Animation END-->
                     <section id="presentation" class="p-4">
                             <p>Bienvenue chez Soin de Soie, un magnifique institut dédié au bien-être et à la beauté, installé à Braine l'Alleud.</p>
                             <p>Vous aurez la chance d'être accueillis par Marie, avec un oeil professionnel et à l'écoute, qui vous proposera de nombreuses prestations afin de sublimer et mettre en valeur votre beauté, de la tête aux pieds.</p>
