@@ -58,31 +58,12 @@
        <main class="container-fluid">
             <section id="accueil">
                 <!--Animation dandelion-->
-                <div id="animateDandelion" class="box">
-                    <div class="dandilionWrapper">
-                        <div class="dandelionPath">
-                            <div id="dandelion1" class="dandelion">
-
-                            </div>
-                        </div>
-                        <div class="dandelionPath">
-                            <div id="dandelion2" class="dandelion">
-
-                            </div>
-                        </div>
-                        <div class="dandelionPath">
-                            <div id="dandelion3" class="dandelion">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                   
                 <!--Animation END-->
                 <div class="d-flex">
                     <section id="presentation" class="p-4">
                             <p>Bienvenue chez Soin de Soie, un magnifique institut dédié au bien-être et à la beauté, installé à Braine l'Alleud.</p>
                             <p>Vous aurez la chance d'être accueillis par Marie, avec un oeil professionnel et à l'écoute, qui vous proposera de nombreuses prestations afin de sublimer et mettre en valeur votre beauté, de la tête aux pieds.</p>
-                            <span id="line1"></span>
                     </section>
                     <!--Slider Pictures-->
                     <section class="Slideshow">
