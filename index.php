@@ -56,16 +56,23 @@
 
        <main class="container-fluid">
             <section id="accueil">
-                 <!--Slider Pictures-->
-                 <section class="Slideshow">
-                    <div class="Slideshow-Content">
-                        <img src="./assets/img/img1.webp" alt="" />
-                        <img src="./assets/img/img2.webp" alt="" />
-                        <img src="./assets/img/img3.webp" alt="" />
-                        <img src="./assets/img/img4.webp" alt="" />
-                    </div>
-                </section>
-                <!--Slider Pictures END-->
+                <div class="d-flex">
+                    <section id="presentation" class="">
+                            <p>Bienvenue chez Soin de Soie, un magnifique institut dédié au bien-être et à la beauté, installé à Braine l'Alleud.</p>
+                            <p>Vous aurez la chance d'être accueillis par Marie, avec un oeil professionnel et à l'écoute, qui vous proposera de nombreuses prestations afin de sublimer et mettre en valeur votre beauté, de la tête aux pieds.</p>
+                            <span id="line1"></span>
+                    </section>
+                    <!--Slider Pictures-->
+                    <section class="Slideshow">
+                        <div class="Slideshow-Content">
+                            <img src="./assets/img/img1.webp" alt="" />
+                            <img src="./assets/img/img2.webp" alt="" />
+                            <img src="./assets/img/img3.webp" alt="" />
+                            <img src="./assets/img/img4.webp" alt="" />
+                        </div>
+                    </section>
+                    <!--Slider Pictures END-->
+                </div>
             </section>
 
             <section id="soins">
@@ -461,7 +468,7 @@
                 <!--Calendar END-->
             </section>   
         </main>
-        <footer class="m-0">
+        <footer class="d-none m-0">
             <section id="adress">
                 <h3>Adresse</h3>
                 <p>Avenue du Fief 12, 1420 Braine-l'Alleud, Belgique</p>
