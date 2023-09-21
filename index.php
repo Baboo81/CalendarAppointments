@@ -461,5 +461,21 @@
                 <!--Calendar END-->
             </section>   
         </main>
+        <footer class="m-0">
+            <section id="adress">
+                <h3>Adresse</h3>
+                <p>Avenue du Fief 12, 1420 Braine-l'Alleud, Belgique</p>
+            </section>
+            <section id="opening">
+                <h3>Horaire</h3>
+                <p>Lundi    09:00 - 19h00</p>
+                <p>Mardi    09:00 - 16h00</p>
+                <p>Mercredi Fermé</p>
+                <p>Jeudi    09h00 - 19h00</p>
+                <p>Vendredi 09h00 - 19h00</p>
+                <p>Samedi   09h00 - 16h00</p>
+                <p>Dimanche Fermé</p>
+            </section>
+        </footer>
     </body>
 </html>

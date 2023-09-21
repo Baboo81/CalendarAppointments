@@ -84,7 +84,7 @@ html, body
 #title1
 {
     font-size: 4.5em;
-    color: var(--pink);
+    color: var(--grey);
     text-align: center;
     margin-top: -150%;
 }
