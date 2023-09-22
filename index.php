@@ -89,11 +89,8 @@
             </section>
 <!------------------------------------------------------------------------------------------------------------------->
             <section id="soins">
-                <div class="d-block mt-4">
-                    <h1 id="title1" class="p-4">Les soins</h1>
-                </div>
                 <!--Accordeon-->
-                <section class="accordion p-2" id="accordionCares">
+                <section class="accordion p-4" id="accordionCares">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

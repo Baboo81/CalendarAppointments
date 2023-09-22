@@ -6,6 +6,7 @@
   --saumon: #e98074;
   --ocre: #e85a4f;
   --grey: #8e8e8e;
+  --pink: #f8d1ef;
   --lavander: #9583ec;
 }
 
@@ -21,5 +22,6 @@
 }
 
 .accordion-button {
-  color: var(--ocre);
+  color: var(--taupe);
+  background-color: var(--pink);
 }/*# sourceMappingURL=Accordion.css.map */
