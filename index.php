@@ -93,7 +93,7 @@
                     <h1 id="title1" class="p-4">Les soins</h1>
                 </div>
                 <!--Accordeon-->
-                <section class="accordion p-4" id="accordionCares">
+                <section class="accordion p-2" id="accordionCares">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -419,7 +419,7 @@
 
             <section id="contact">
                 <!--Contact card-->
-                <section id="card" class="card mt-4" style="width: 25rem;">
+                <section id="card" class="card mt-4" style="width: 45rem;">
                     <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
                     <div class="card-body">
                         <h5 class="card-title">Contactez-moi</h5>
