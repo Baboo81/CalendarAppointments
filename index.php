@@ -61,13 +61,13 @@
                     <!--Animation dandelion-->
                     <div id="dandelionBloc">
                         <div>
-                            <img id="dandelion1" src="./assets/img/svg/dandelion1.svg" alt="pétale de pissenlit">
+                            <img id="dandelion1" src="" alt="">
                         </div>
                         <div>
-                            <img id="dandelion2" src="./assets/img/svg/dandelion2.svg" alt="pétale de pissenlit">
+                            <img id="dandelion2" src="" alt="">
                         </div>
                         <div>
-                            <img id="dandelion3" src="./assets/img/svg/dandelion3.svg" alt="pétale de pissenlit">
+                            <img id="dandelion3" src="" alt="">
                         </div>
                     </div>
                     <!--Animation END-->
@@ -87,7 +87,7 @@
                     <!--Slider Pictures END-->
                 </div>
             </section>
-
+<!------------------------------------------------------------------------------------------------------------------->
             <section id="soins">
                 <div class="d-block mt-4">
                     <h1 id="title1" class="p-4">Les soins</h1>

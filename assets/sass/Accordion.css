@@ -9,9 +9,8 @@
   --lavander: #9583ec;
 }
 
-#accordionCares {
-  height: 30em;
-  width: 65em;
-  margin-top: -25%;
+.accordion {
+  margin-top: -15%;
   margin-left: 0%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }/*# sourceMappingURL=Accordion.css.map */
