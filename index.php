@@ -423,7 +423,7 @@
                     <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
                     <div class="card-body">
                         <h5 class="card-title">Contactez-moi</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eligendi dolor adipisci, harum vitae expedita.</p>
+                        <p class="card-text text-muted">N'hesitez pas à me contacter par mail.</p>
                         <button id="btn" type="button">Envoyez-moi un mail</button>
                     </div>
                 </section>
