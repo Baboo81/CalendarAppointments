@@ -89,6 +89,9 @@
             </section>
 <!------------------------------------------------------------------------------------------------------------------->
             <section id="soins">
+                <div>
+                    <h1 id="title1">Soins</h1>
+                </div>
                 <!--Accordeon-->
                 <section class="accordion p-4" id="accordionCares">
                     <div class="accordion-item">
