@@ -41,7 +41,7 @@
             <!-- Main -->
             <main class="et-main">
                 <section class="et-slide" id="tab-es6">
-                    <img src="./assets/img/svg/Logo.svg" alt="logo pissenlit">
+                    <img id="logo" src="./assets/img/svg/Logo.svg" alt="logo pissenlit">
                 </section>
                 <section class="et-slide" id="tab-flexbox">
                     <h1>Soins</h1>
