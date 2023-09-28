@@ -38,8 +38,8 @@ html, body
 
 #accueil
 {
-    margin-top: 320%;
-    margin-bottom: 30%;
+    margin-top: 300%;
+    margin-bottom: 20%;
 }
 
 #presentation
@@ -62,17 +62,17 @@ html, body
 {
     height: 4em;
     width: 12em;
-    color: var(--beige);
+    color: var(--taupe);
     font-size: .8em;
     font-weight: bold;
-    background-color: var(--taupe);
+    background-color: var(--brun);
     border-radius: 30px;
-    border: solid 3px var(--violet);
+    border: solid 3px var(--taupe);
 }
 
 #btn:hover
 {
-    background-color: var(--violet);
+    background-color: var(--taupe);
     color: var(--beige);
-    border: solid 2px var(--taupe);
+    border: solid 2px var(--brun);
 }

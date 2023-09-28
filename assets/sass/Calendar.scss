@@ -23,6 +23,7 @@ body
     margin-top: 0%;
     margin-bottom: -10%;
     background-color: var(--taupe);
+    border-radius: 18px;
 }
 
 .calendarTable
@@ -60,4 +61,19 @@ body
 .calendarOtherMonth .calendarDay
 {
     opacity: 0.3;
+}
+
+.navbar
+{
+    background-color: var(--beige);
+    border-radius: 18px;
+    
+}
+
+.navbar a
+{
+    font-size: 2em;
+    font-weight: 800;
+    color: var(--violet);
+    letter-spacing: .1em;
 }

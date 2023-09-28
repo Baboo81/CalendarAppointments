@@ -430,8 +430,8 @@
             <section>
                 <!--Construction du calendrier-->
                 <section id="calendarBloc" class="p-4">
-                    <nav class="navbar navbar-dark bg-primary mb-3">
-                        <a href="/index.php" class="navbar-brand">Agenda</a>
+                    <nav class="navbar navbar-dark mb-3">
+                        <a class="text-align center mx-4" href="/index.php" class="navbar-brand">Agenda</a>
                     </nav>
 
                     <?php 
@@ -448,8 +448,8 @@
                     <div class="d-flex flex-row align-items-center justify-content-between mx-3">
                         <h1><?= $month->toString(); ?></h1>
                         <div>
-                            <a href="/index.php?month=<?= $month->prevMonth()->month; ?>&year=<?= $month->prevMonth()->year; ?>" class="btn btn-primary">&lt;</a>
-                            <a href="/index.php?month=<?= $month->nextMonth()->month; ?>&year=<?= $month->nextMonth()->year; ?>" class="btn btn-primary">&gt;</a>
+                            <a href="/index.php?month=<?= $month->prevMonth()->month; ?>&year=<?= $month->prevMonth()->year; ?>" class="btn btn-secondary">&lt;</a>
+                            <a href="/index.php?month=<?= $month->nextMonth()->month; ?>&year=<?= $month->nextMonth()->year; ?>" class="btn btn-secondary">&gt;</a>
                         </div>
                     </div>
                     
