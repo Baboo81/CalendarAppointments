@@ -7,8 +7,7 @@
     --saumon : #e98074;
     --ocre : #e85a4f;
     --grey : #8e8e8e;
-    --pink : #f8d1ef;
-    --lavander : #9583ec;
+    --violet : #431f4b;
 }
 
 html, body 
@@ -39,8 +38,8 @@ html, body
 
 #accueil
 {
-    margin-top: 250%;
-    margin-bottom: 20%;
+    margin-top: 320%;
+    margin-bottom: 30%;
 }
 
 #presentation
@@ -54,45 +53,6 @@ html, body
     border-right: solid 2px var(--taupe);
 }
 
-/*#soins
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    background: var(--beige);
-    text-align: center;
-    padding: 0 2em;
-}
-
-#contact
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    position: relative;
-    background: var(--beige);
-    text-align: center;
-    padding: 0 2em;
-}
-
-#rdv
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 122.5vh;
-    position: relative;
-    background: var(--beige);
-    text-align: center;
-    padding: 0 2em;
-}*/
-
 #logo
 {
     margin-top: 165%;
@@ -102,17 +62,17 @@ html, body
 {
     height: 4em;
     width: 12em;
-    color: var(--grey);
+    color: var(--beige);
     font-size: .8em;
     font-weight: bold;
-    background-color: var(--pink);
+    background-color: var(--taupe);
     border-radius: 30px;
-    border: solid 3px var(--grey);
+    border: solid 3px var(--violet);
 }
 
 #btn:hover
 {
-    background-color: var(--taupe);
+    background-color: var(--violet);
     color: var(--beige);
-    border: solid 2px var(--pink);
+    border: solid 2px var(--taupe);
 }

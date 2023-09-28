@@ -19,10 +19,10 @@
 }
 
 .accordion-item {
-  color: var(--taupe);
+  color: var(--beige);
 }
 
 .accordion-button {
-  color: var(--taupe);
-  background-color: var(--pink);
+  color: var(--beige);
+  background-color: var(--taupe);
 }/*# sourceMappingURL=Accordion.css.map */
