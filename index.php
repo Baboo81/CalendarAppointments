@@ -94,10 +94,10 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <h1>Teinture De Cils Et Sourcil</h1>
+                                <h1 class="mx-4">Teinture De Cils Et Sourcil</h1>
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse-show" aria-labelledby="headingOne" data-bs-parents="#accordionCares">
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parents="#accordionCares">
                             <div class="accordion-body">
                                 <strong>Teinture des sourcils</strong>
                                 <p>&#x1F552; 15min   15&euro;</p>
@@ -115,7 +115,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <h1>Manucure</h1>
+                                <h1 class="mx-4">Manucure</h1>
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionCares">
@@ -148,7 +148,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <h1>Épilation</h1>
+                                <h1 class="mx-4">Épilation</h1>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parents="#accordionCares">
@@ -233,7 +233,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <h1>Restructuration & Épilation Des Sourcils</h1>
+                                <h1 class="mx-4">Restructuration & Épilation Des Sourcils</h1>
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionCares">
@@ -246,7 +246,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <h1>Massage</h1>
+                                <h1 class="mx-4">Massage</h1>
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionCares">
@@ -271,7 +271,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                <h1>Soin Du Corps</h1>
+                                <h1 class="mx-4">Soin Du Corps</h1>
                             </button>
                         </h2>
                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionCares">
@@ -304,7 +304,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSeven">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                <h1>Beauté Des Pieds</h1>
+                                <h1 class="mx-4">Beauté Des Pieds</h1>
                             </button>
                         </h2>
                         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionCares">
@@ -325,7 +325,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingEight">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                <h1>Soin Du Visage</h1>
+                                <h1 class="mx-4">Soin Du Visage</h1>
                             </button>
                         </h2>
                         <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionCares">
@@ -395,7 +395,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingElf">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseElf" aria-expanded="false" aria-controls="collapseElf">
-                                    <h1>Diagnostique</h1>
+                                    <h1 class="mx-4">Diagnostique</h1>
                                 </button>
                             </h2>
                             <div id="collapseElf" class="accordion-collapse collapse" aria-labelledby="headingElf" data-bs-parent="#accordionCares">
