@@ -55,9 +55,9 @@
             </div>
         </header>
 
-       <main class="container-fluid">
-            <section id="accueil">
-                <div class="d-flex">
+       <main class="container-fluid" id="mainContent">
+            <section>
+                <div class="d-flex" id="accueil">
                     <!--Animation dandelion-->
                     <div id="dandelionBloc">
                         <div>
@@ -88,7 +88,7 @@
                 </div>
             </section>
 <!------------------------------------------------------------------------------------------------------------------->
-            <section id="soins">
+            <section>
                 <div>
                     <h1 id="title1">Soins</h1>
                 </div>
@@ -417,7 +417,7 @@
             <!--Accordion END-->
             </section>
 
-            <section id="contact">
+            <section>
                 <!--Contact card-->
                 <section id="card" class="card mt-4" style="width: 45rem;">
                     <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
@@ -430,7 +430,7 @@
                 <!--Contact card END-->
             </section>
 
-            <section id="rdv">
+            <section>
                 <!--Construction du calendrier-->
                 <section id="calendarBloc" class="p-4">
                     <nav class="navbar navbar-dark bg-primary mb-3">

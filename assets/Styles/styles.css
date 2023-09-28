@@ -23,18 +23,23 @@ html, body
     align-items: center;
 }
 
-#accueil 
+#mainContent
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 900vh;
     position: relative;
     background: var(--beige);
     text-align: center;
     padding: 0 2em;
-    margin-top: 200%;
+    margin-top: 0%;
+}
+
+#accueil
+{
+    margin-top: 330%;
 }
 
 #presentation
@@ -48,7 +53,7 @@ html, body
     border-right: solid 2px var(--taupe);
 }
 
-#soins
+/*#soins
 {
     display: flex;
     flex-direction: column;
@@ -85,7 +90,7 @@ html, body
     background: var(--beige);
     text-align: center;
     padding: 0 2em;
-}
+}*/
 
 #logo
 {
@@ -97,7 +102,7 @@ html, body
     font-size: 4.5em;
     color: var(--grey);
     text-align: center;
-    margin-top: -200%;
+    margin-top: 20%;
 }
 
 #btn
