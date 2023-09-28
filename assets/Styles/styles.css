@@ -39,7 +39,8 @@ html, body
 
 #accueil
 {
-    margin-top: 330%;
+    margin-top: 250%;
+    margin-bottom: 20%;
 }
 
 #presentation
@@ -95,14 +96,6 @@ html, body
 #logo
 {
     margin-top: 165%;
-}
-
-#title1
-{
-    font-size: 4.5em;
-    color: var(--grey);
-    text-align: center;
-    margin-top: 20%;
 }
 
 #btn

@@ -11,6 +11,7 @@
 }
 
 #card {
+  margin-bottom: 20%;
   border-radius: 12px;
   font-family: "Century Gothic", "Lato", sans-serif;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
