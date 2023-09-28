@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS : Leaflet.js -->
+	    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		crossorigin="" />
         <!--Link styles-->
         <link rel="stylesheet" href="./assets/styles/normalize.css">
         <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
@@ -14,6 +18,8 @@
         <link rel="stylesheet" href="./assets/sass/Dandelion.css">
         <link rel="stylesheet" href="./assets/sass/Carousel.css">
         <link rel="stylesheet" href="./assets/sass/Footer.css">
+        <!--Script Leaflet-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
         <!--Scripts, libraries, framework JS-->
         <script src="./assets/scripts/jQuery3.7.0.js" defer></script>
         <script src="./assets/scripts/bootstrap.bundle.min.js" defer></script>
@@ -485,21 +491,26 @@
                 <!--Calendar END-->
             </section>   
         </main>
-        <footer class="d-none m-0">
-            <section id="adress">
-                <h3>Adresse</h3>
-                <p>Avenue du Fief 12, 1420 Braine-l'Alleud, Belgique</p>
-            </section>
-            <section id="opening">
-                <h3>Horaire</h3>
-                <p>Lundi    09:00 - 19h00</p>
-                <p>Mardi    09:00 - 16h00</p>
-                <p>Mercredi Fermé</p>
-                <p>Jeudi    09h00 - 19h00</p>
-                <p>Vendredi 09h00 - 19h00</p>
-                <p>Samedi   09h00 - 16h00</p>
-                <p>Dimanche Fermé</p>
-            </section>
+        <footer class="d-block">
+            <div class="d-flex p-4">
+                <section class="p-4" id="adress">
+                    <h3>Adresse</h3>
+                    <p>Avenue du Fief 12, 1420 Braine-l'Alleud, Belgique</p>
+                </section>
+                <section class="p-4" id="opening">
+                    <h3>Horaire</h3>
+                    <p>Lundi    09:00 - 19h00</p>
+                    <p>Mardi    09:00 - 16h00</p>
+                    <p>Mercredi Fermé</p>
+                    <p>Jeudi    09h00 - 19h00</p>
+                    <p>Vendredi 09h00 - 19h00</p>
+                    <p>Samedi   09h00 - 16h00</p>
+                    <p>Dimanche Fermé</p>
+                </section>
+                <section id="dev"class="d-none d-block">
+                    <p>&copy; Christel Rodriguez Perez - 2023</p>
+                </section>
+            </div>
         </footer>
     </body>
 </html>

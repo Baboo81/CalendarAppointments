@@ -7,13 +7,20 @@
     --saumon : #e98074;
     --ocre : #e85a4f;
     --grey : #8e8e8e;
-    --pink : #f8d1ef;
-    --lavander : #9583ec;
+    --violet : #431f4b;
 }
 
 footer
 {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background-color: var(--lavander);
+    background-color: var(--brun);
+    position: absolute;
+    color: var(--violet);
+    top: 500%;
+}
+
+#dev
+{
+    margin-top: 0%;
 }
