@@ -26,33 +26,40 @@
         <header>
         <!-- Hero -->
             <section class="et-hero-tabs">
-                <h1>Institut Soin de Soie</h1>
+                <h1>STICKY SLIDER NAV</h1>
+                <h3>Sliding content with sticky tab nav</h3>
                 <div class="et-hero-tabs-container">
                     <a class="et-hero-tab" href="#tab-es6">Accueil</a>
-                    <a class="et-hero-tab" href="#tab-soins">Soins</a>
-                    <a class="et-hero-tab" href="#tab-contact">Contact</a>
-                    <a class="et-hero-tab" href="#tab-rendezVous">Rendez-vous</a>
+                    <a class="et-hero-tab" href="#tab-flexbox">Soins</a>
+                    <a class="et-hero-tab" href="#tab-react">Contactez-moi</a>
+                    <a class="et-hero-tab" href="#tab-angular">Rendez-vous</a>
+                    <a class="et-hero-tab" href="#tab-other">Other</a>
                     <span class="et-hero-tab-slider"></span>
                 </div>
             </section>
-        <!-- Main -->
-            <div class="et-main">
+
+            <!-- Main -->
+            <main class="et-main">
                 <section class="et-slide" id="tab-es6">
-                    <img id="logo" src="./assets/img/svg/Logo.svg" alt="Logo pissenlit">
+                    <img src="./assets/img/svg/Logo.svg" alt="logo pissenlit">
                 </section>
-                <section class="et-slide" id="tab-soins">
+                <section class="et-slide" id="tab-flexbox">
                     <h1>Soins</h1>
                     <h3>Soins & tarifs</h3>
                 </section>
-                <section class="et-slide" id="tab-contact">
-                    <h1>Contact</h1>
-                    <h3>Adresse ...</h3>
+                <section class="et-slide" id="tab-react">
+                    <h1>Contactez-moi</h1>
+                    <h3>Contactez-moi</h3>
                 </section>
-                <section class="et-slide" id="rendezVous">
+                <section class="et-slide" id="tab-angular">
                     <h1>Rendez-vous</h1>
-                    <h3>En quelques clics prenez rendez-vous</h3>
+                    <h3>Agenda</h3>
                 </section>
-            </div>
+                <section class="et-slide" id="tab-other">
+                    <h1>Other</h1>
+                    <h3>something about other</h3>
+                </section>
+            </main>
         </header>
 
        <main class="container-fluid" id="mainContent">
