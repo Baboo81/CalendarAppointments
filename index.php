@@ -496,6 +496,9 @@
                 <section class="p-4" id="adress">
                     <h3>Adresse</h3>
                     <p>Avenue du Fief 12, 1420 Braine-l'Alleud, Belgique</p>
+                    <div id="mapid" class="container-fluid">
+
+                    </div>
                 </section>
                 <section class="p-4" id="opening">
                     <h3>Horaire</h3>
