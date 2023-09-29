@@ -496,9 +496,7 @@
                 <section class="p-4" id="adress">
                     <h3>Adresse</h3>
                     <p>Avenue du Fief 12, 1420 Braine-l'Alleud, Belgique</p>
-                    <div id="mapid" class="container-fluid">
-
-                    </div>
+                    <div id="mapid" class="container-fluid"></div>
                 </section>
                 <section class="p-4" id="opening">
                     <h3>Horaire</h3>
@@ -510,10 +508,16 @@
                     <p>Samedi   09h00 - 16h00</p>
                     <p>Dimanche Fermé</p>
                 </section>
-                <section id="dev"class="d-none d-block">
-                    <p>&copy; Christel Rodriguez Perez - 2023</p>
+                <section>
+                    <h3>Réseaux sociaux</h3>
+                    <a class="icons" href=""><img src="./assets/img/svg/facebook.svg" alt="Icône FaceBook"></a>
+                    <a class="icons" href=""><img src="./assets/img/svg/instagram.svg" alt="Icône Instagram"></a>
+                    <a class="icons" href=""><img src="./assets/img/svg/linkedin.svg" alt="Icône LinkedIn"></a>
                 </section>
             </div>
+            <section id="dev"class="d-none d-block">
+                    <p>&copy; Christel Rodriguez Perez - 2023</p>
+            </section>
         </footer>
     </body>
 </html>

@@ -20,4 +20,13 @@ footer {
 
 #mapid {
   height: 300px;
+}
+
+.icons:hover {
+  transform: scale(1.5);
+  transition: transform 330ms ease-in;
+}
+
+#dev {
+  text-align: center;
 }/*# sourceMappingURL=Footer.css.map */
