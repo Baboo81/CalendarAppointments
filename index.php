@@ -430,7 +430,7 @@
             <section>
                 <!--Contact card-->
                 <section id="card" class="card mt-4" style="width: 45rem;">
-                    <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
+                    <img class="card-img-top" src="./assets/img/img6.webp" alt="photo de Marie">
                     <div class="card-body">
                         <h5 class="card-title">Contactez-moi</h5>
                         <p class="card-text text-muted">N'hesitez pas à me contacter par mail.</p>

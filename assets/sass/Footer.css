@@ -20,6 +20,7 @@ footer {
 
 #mapid {
   height: 300px;
+  border-radius: 10px;
 }
 
 .icons:hover {
