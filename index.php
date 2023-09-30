@@ -508,11 +508,15 @@
                     <p>Samedi   09h00 - 16h00</p>
                     <p>Dimanche Fermé</p>
                 </section>
-                <section>
+                <section class="p-4">
                     <h3>Réseaux sociaux</h3>
                     <a class="icons" href=""><img src="./assets/img/svg/facebook.svg" alt="Icône FaceBook"></a>
                     <a class="icons" href=""><img src="./assets/img/svg/instagram.svg" alt="Icône Instagram"></a>
                     <a class="icons" href=""><img src="./assets/img/svg/linkedin.svg" alt="Icône LinkedIn"></a>
+                </section>
+                <section class="p-4">
+                    <h3>Contactez-moi</h3>
+                    <a href=""><img src="./assets/img/svg/email.svg" alt=""></a>
                 </section>
             </div>
             <section id="dev"class="d-none d-block">
