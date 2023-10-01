@@ -40,7 +40,7 @@
                     <a class="et-hero-tab" href="#tab-flexbox">Soins</a>
                     <a class="et-hero-tab" href="#tab-react">Cosmétiques</a>
                     <a class="et-hero-tab" href="#tab-angular">Rendez-vous</a>
-                    <a class="et-hero-tab" href="#tab-other">Qui suis-je</a>
+                    <a class="et-hero-tab" href="#tab-other">L'équipe</a>
                     <span class="et-hero-tab-slider"></span>
                 </div>
             </section>
@@ -63,7 +63,7 @@
                     <h3>Agenda</h3>
                 </section>
                 <section class="et-slide" id="tab-other">
-                    <h1>Qui suis-je</h1>
+                    <h1>L'équipe</h1>
                     <h3></h3>
                 </section>
             </main>
@@ -496,8 +496,8 @@
                     <section class="card mt-4" style="width: 25rem;">
                         <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
                         <div class="card-body">
-                            <h5 class="card-title">Gammes de produits</h5>
-                            <p class="card-text text-muted">Les marques et produits utilisés : Bernard Cassiere, Sothys, Pronails, Cirépils, Combinal.</p>
+                            <h5 class="card-title">L'équipe</h5>
+                            <p class="card-text text-muted">Marie, une véritable experte en beauté, vous accueillera chaleureusement dans son espace dédié.</p>
                             <button id="btn" type="button">Envoyez-moi un mail</button>
                         </div>
                     </section>
@@ -506,13 +506,13 @@
         </main>
         <footer class="d-block">
             <div class="d-flex p-4">
-                <section class="p-4" id="adress">
-                    <h3>Adresse</h3>
+                <section class="p-4 mx-4" id="adress">
+                    <h3 class="mb-4">Adresse</h3>
                     <p>Avenue du Fief 12, 1420 Braine-l'Alleud, Belgique</p>
                     <div id="mapid" class="container-fluid"></div>
                 </section>
-                <section class="p-4" id="opening">
-                    <h3>Horaire</h3>
+                <section class="p-4 mx-4" id="opening">
+                    <h3 class="mb-4">Horaire</h3>
                     <p>Lundi    09:00 - 19h00</p>
                     <p>Mardi    09:00 - 16h00</p>
                     <p>Mercredi Fermé</p>
@@ -521,20 +521,21 @@
                     <p>Samedi   09h00 - 16h00</p>
                     <p>Dimanche Fermé</p>
                 </section>
-                <section class="p-4">
+                <section class="p-4 mx-4">
                     <h3>Réseaux sociaux</h3>
-                    <a class="icons" href=""><img src="./assets/img/svg/facebook.svg" alt="Icône FaceBook"></a>
-                    <a class="icons" href=""><img src="./assets/img/svg/instagram.svg" alt="Icône Instagram"></a>
-                    <a class="icons" href=""><img src="./assets/img/svg/linkedin.svg" alt="Icône LinkedIn"></a>
+                    <a class="" href=""><img src="./assets/img/svg/facebook.svg" alt="Icône FaceBook"></a>
+                    <a class="" href=""><img src="./assets/img/svg/instagram.svg" alt="Icône Instagram"></a>
+                    <a class="" href=""><img src="./assets/img/svg/linkedin.svg" alt="Icône LinkedIn"></a>
                 </section>
-                <section class="p-4">
-                    <h3>Contactez-moi</h3>
+                <section class="p-4 mx-4">
+                    <h3>Coordonnées</h3>
+                    <p></p>
                     <a href=""><img src="./assets/img/svg/email.svg" alt=""></a>
                 </section>
-            </div>
-            <section id="dev"class="d-none d-block">
+                <section id="dev"class="d-block">
                     <p>&copy; Christel Rodriguez Perez - 2023</p>
-            </section>
+                </section>
+            </div>
         </footer>
     </body>
 </html>

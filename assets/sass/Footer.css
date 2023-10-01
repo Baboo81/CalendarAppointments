@@ -10,7 +10,7 @@
 }
 
 footer {
-  height: 500px;
+  height: 550px;
   width: 100%;
   background-color: var(--brun);
   position: absolute;
@@ -30,4 +30,6 @@ footer {
 
 #dev {
   text-align: center;
+  font-weight: bold;
+  margin-top: 20%;
 }/*# sourceMappingURL=Footer.css.map */
