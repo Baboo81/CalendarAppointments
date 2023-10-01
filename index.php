@@ -32,14 +32,14 @@
         <header>
         <!-- Hero -->
             <section class="et-hero-tabs">
-                <h1>STICKY SLIDER NAV</h1>
-                <h3>Sliding content with sticky tab nav</h3>
+                <h1></h1>
+                <h3></h3>
                 <div class="et-hero-tabs-container">
                     <a class="et-hero-tab" href="#tab-es6">Accueil</a>
                     <a class="et-hero-tab" href="#tab-flexbox">Soins</a>
-                    <a class="et-hero-tab" href="#tab-react">Contactez-moi</a>
+                    <a class="et-hero-tab" href="#tab-react">Cosmétiques</a>
                     <a class="et-hero-tab" href="#tab-angular">Rendez-vous</a>
-                    <a class="et-hero-tab" href="#tab-other">Other</a>
+                    <a class="et-hero-tab" href="#tab-other">Qui suis-je</a>
                     <span class="et-hero-tab-slider"></span>
                 </div>
             </section>
@@ -54,16 +54,16 @@
                     <h3>Soins & tarifs</h3>
                 </section>
                 <section class="et-slide" id="tab-react">
-                    <h1>Contactez-moi</h1>
-                    <h3>Contactez-moi</h3>
+                    <h1>Cosmétiques</h1>
+                    <h3>Gammes de soin</h3>
                 </section>
                 <section class="et-slide" id="tab-angular">
                     <h1>Rendez-vous</h1>
                     <h3>Agenda</h3>
                 </section>
                 <section class="et-slide" id="tab-other">
-                    <h1>Other</h1>
-                    <h3>something about other</h3>
+                    <h1>Qui suis-je</h1>
+                    <h3></h3>
                 </section>
             </main>
         </header>
