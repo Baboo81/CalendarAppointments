@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="./assets/styles/styles.css">
         <link rel="stylesheet" href="./assets/sass/Calendar.css">
         <link rel="stylesheet" href="./assets/sass/Card.css">
+        <link rel="stylesheet" href="./assets/sass/Card2.css">
         <link rel="stylesheet" href="./assets/sass/slider.css">
         <link rel="stylesheet" href="./assets/sass/Accordion.css">
         <link rel="stylesheet" href="./assets/sass/Dandelion.css">
@@ -432,9 +433,8 @@
                 <section id="card" class="card mt-4" style="width: 45rem;">
                     <img class="card-img-top" src="./assets/img/img6.webp" alt="photo de Marie">
                     <div class="card-body">
-                        <h5 class="card-title">Contactez-moi</h5>
-                        <p class="card-text text-muted">N'hesitez pas à me contacter par mail.</p>
-                        <button id="btn" type="button">Envoyez-moi un mail</button>
+                        <h3 class="card-title">Gammes de produits</h3>
+                        <p class="card-text text-muted">Les marques et produits utilisés : Bernard Cassiere, Sothys, Pronails, Cirépils, Combinal.</p>
                     </div>
                 </section>
                 <!--Contact card END-->
@@ -488,8 +488,21 @@
                         <?php endfor; ?>
                     </table>           
                 </section>
-                <!--Calendar END-->
-            </section>   
+            </section>
+            <!--Calendar END-->
+
+             <!--Contact card-->
+             <section class="p-4 my-4">
+                    <section class="card mt-4" style="width: 25rem;">
+                        <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
+                        <div class="card-body">
+                            <h5 class="card-title">Gammes de produits</h5>
+                            <p class="card-text text-muted">Les marques et produits utilisés : Bernard Cassiere, Sothys, Pronails, Cirépils, Combinal.</p>
+                            <button id="btn" type="button">Envoyez-moi un mail</button>
+                        </div>
+                    </section>
+            </section>
+            <!--Contact card END-->
         </main>
         <footer class="d-block">
             <div class="d-flex p-4">
