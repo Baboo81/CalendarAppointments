@@ -17,7 +17,7 @@ body {
   height: 80em;
   width: 75em;
   margin-top: 40%;
-  margin-bottom: -10%;
+  margin-bottom: 10%;
   background-color: var(--taupe);
   border-radius: 18px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
