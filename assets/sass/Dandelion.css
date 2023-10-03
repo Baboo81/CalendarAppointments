@@ -7,4 +7,12 @@
   --ocre: #e85a4f;
   --grey: #8e8e8e;
   --violet: #431f4b;
+}
+
+.dandelionFull {
+  height: 60%;
+  width: 60%;
+  position: relative;
+  top: 30%;
+  left: 60%;
 }/*# sourceMappingURL=Dandelion.css.map */

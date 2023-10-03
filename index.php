@@ -27,7 +27,7 @@
         <script src="./assets/scripts/main.js" defer></script>
         <script src="./assets/scripts/slider.js" defer></script>
         <script src="./assets/scripts/carousel.js" defer></script>
-        <title>Calendar</title>
+        <title>Soin De Soie</title>
     </head>
     <body>
         <header>
@@ -72,19 +72,6 @@
        <main class="container-fluid" id="mainContent">
             <section>
                 <div class="d-flex" id="accueil">
-                    <!--Animation dandelion-->
-                    <div id="dandelionBloc">
-                        <div>
-                            <img id="dandelion1" src="" alt="">
-                        </div>
-                        <div>
-                            <img id="dandelion2" src="" alt="">
-                        </div>
-                        <div>
-                            <img id="dandelion3" src="" alt="">
-                        </div>
-                    </div>
-                    <!--Animation END-->
                     <section id="presentation" class="p-4">
                             <p>Bienvenue chez Soin de Soie, un magnifique institut dédié au bien-être et à la beauté, installé à Braine l'Alleud.</p>
                             <p>Vous aurez la chance d'être accueillis par Marie, avec un oeil professionnel et à l'écoute, qui vous proposera de nombreuses prestations afin de sublimer et mettre en valeur votre beauté, de la tête aux pieds.</p>
@@ -99,6 +86,12 @@
                         </div>
                     </section>
                     <!--Slider Pictures END-->
+
+                    <!--Animation dandelion-->
+                     <div id="dandelionBloc" class="d-block">
+                        <img class="dandelionFull" src="./assets/img/svg/dandelion.svg" alt="Image vectorielle d'un pissenlit">
+                    </div>
+                    <!--Animation END-->
                 </div>
             </section>
 <!------------------------------------------------------------------------------------------------------------------->
