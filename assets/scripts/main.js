@@ -7,7 +7,7 @@ const dand3 = document.getElementById('dandelion3');
 
 
 function animateDandelion () {
-
+    const dand1 = Math(x + 1);
 };
 
 //Footer map:
