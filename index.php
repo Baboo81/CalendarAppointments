@@ -485,8 +485,7 @@
             <!--Calendar END-->
 
              <!--Contact card-->
-             <section class="p-4 my-4">
-                    <section class="card mt-4" style="width: 25rem;">
+                    <section class="card my-4" style="width: 25rem;">
                         <img class="card-img-top" src="./assets/img/img7.webp" alt="photo de Marie">
                         <div class="card-body">
                             <h5 class="card-title">L'équipe</h5>
@@ -494,7 +493,6 @@
                             <button id="btn" type="button">Envoyez-moi un mail</button>
                         </div>
                     </section>
-            </section>
             <!--Contact card END-->
         </main>
         <footer class="d-block">

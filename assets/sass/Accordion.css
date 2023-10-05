@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --noir: #000;
   --beige: #eae7dc;
@@ -29,4 +30,9 @@
 .accordion-button:hover {
   background-color: var(--brun);
   color: var(--taupe);
-}/*# sourceMappingURL=Accordion.css.map */
+}
+
+/*Media queries*/
+/*Style pour mobile,largeur d'écran inférieur à 480px*/
+/*Style pour les tablettes*/
+/*Style pour les desktop*//*# sourceMappingURL=Accordion.css.map */

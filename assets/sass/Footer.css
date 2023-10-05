@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --noir: #000;
   --beige: #eae7dc;
@@ -32,4 +33,9 @@ footer {
   text-align: center;
   font-weight: bold;
   margin-top: 20%;
-}/*# sourceMappingURL=Footer.css.map */
+}
+
+/*Media queries*/
+/*Style pour mobile,largeur d'écran inférieur à 480px*/
+/*Style pour les tablettes*/
+/*Style pour les desktop*//*# sourceMappingURL=Footer.css.map */

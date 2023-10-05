@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --noir: #000;
   --beige: #eae7dc;
@@ -15,4 +16,9 @@
   position: relative;
   top: 30%;
   left: 60%;
-}/*# sourceMappingURL=Dandelion.css.map */
+}
+
+/*Media queries*/
+/*Style pour mobile,largeur d'écran inférieur à 480px*/
+/*Style pour les tablettes*/
+/*Style pour les desktop*//*# sourceMappingURL=Dandelion.css.map */

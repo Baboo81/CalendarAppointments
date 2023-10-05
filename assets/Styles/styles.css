@@ -77,3 +77,23 @@ html, body
     color: var(--beige);
     border: solid 2px var(--brun);
 }
+
+/*Media queries*/
+
+/*Style pour mobile,largeur d'écran inférieur à 480px*/
+@media only screen and (max-width : 480px)
+{
+
+}
+
+/*Style pour les tablettes*/
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+
+}
+
+/*Style pour les desktop*/
+@media only screen and (min-width : 769px)
+{
+    
+}

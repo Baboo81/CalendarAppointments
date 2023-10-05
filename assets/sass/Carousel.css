@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --noir: #000;
   --beige: #eae7dc;
@@ -62,4 +63,9 @@
   100% {
     opacity: 0;
   }
-}/*# sourceMappingURL=Carousel.css.map */
+}
+
+/*Media queries*/
+/*Style pour mobile,largeur d'écran inférieur à 480px*/
+/*Style pour les tablettes*/
+/*Style pour les desktop*//*# sourceMappingURL=Carousel.css.map */

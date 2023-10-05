@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --noir: #000;
   --beige: #eae7dc;
@@ -64,4 +65,9 @@ body {
   font-weight: 800;
   color: var(--violet);
   letter-spacing: 0.1em;
-}/*# sourceMappingURL=Calendar.css.map */
+}
+
+/*Media queries*/
+/*Style pour mobile,largeur d'écran inférieur à 480px*/
+/*Style pour les tablettes*/
+/*Style pour les desktop*//*# sourceMappingURL=Calendar.css.map */
