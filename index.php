@@ -70,7 +70,6 @@
         </header>
 
        <main class="container-fluid" id="mainContent">
-            <section>
                 <div class="d-flex" id="accueil">
                     <section id="presentation" class="p-4">
                             <p>Bienvenue chez Soin de Soie, un magnifique institut dédié au bien-être et à la beauté, installé à Braine l'Alleud.</p>
@@ -93,9 +92,7 @@
                     </div>
                     <!--Animation END-->
                 </div>
-            </section>
 <!------------------------------------------------------------------------------------------------------------------->
-            <section>
                 <!--Accordeon-->
                 <section class="accordion p-4" id="accordionCares">
                     <div class="accordion-item">
@@ -417,21 +414,18 @@
                             </div>
                         </div>
                 </section>
-            </section>
             <!--Accordion END-->
             </section>
 
-            <section>
-                <!--Contact card-->
-                <section id="card" class="card mt-4" style="width: 45rem;">
-                    <img class="card-img-top" src="./assets/img/img6.webp" alt="photo de Marie">
-                    <div class="card-body">
-                        <h3 class="card-title">Gammes de produits</h3>
-                        <p class="card-text text-muted">Les marques et produits utilisés : Bernard Cassiere, Sothys, Pronails, Cirépils, Combinal.</p>
-                    </div>
-                </section>
-                <!--Contact card END-->
+            <!--Contact card-->
+            <section id="card" class="card mt-4" style="width: 45rem;">
+                <img class="card-img-top" src="./assets/img/img6.webp" alt="photo de Marie">
+                <div class="card-body">
+                    <h3 class="card-title">Gammes de produits</h3>
+                    <p class="card-text text-muted">Les marques et produits utilisés : Bernard Cassiere, Sothys, Pronails, Cirépils, Combinal.</p>
+                </div>
             </section>
+            <!--Contact card END-->
 
             <section>
                 <!--Construction du calendrier-->
