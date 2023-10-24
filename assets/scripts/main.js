@@ -15,8 +15,12 @@ const togg = document.getElementById('togg');
 const content = document.getElementById('cardContent');
 
 togg.addEventListener("click", () => {
-    
-})
+    if(getComputedStyle(content).display != "none") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";
+    }
+});
 
 
 
