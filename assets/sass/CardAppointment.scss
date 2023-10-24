@@ -7,37 +7,25 @@
     --saumon : #e98074;
     --ocre : #e85a4f;
     --grey : #8e8e8e;
-    --violet : #431f4b;
+    --pink : #f8d1ef;
+    --lavander : #9583ec;
 }
 
-footer
+
+.card 
 {
-    height: 550px;
-    width: 100%;
-    background-color: var(--brun);
-    position: absolute;
-    color: var(--violet);
-    top: 550%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    border-radius: 12px;
+    font-family: "Century Gothic", 'Lato', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#mapid
+.card:hover
 {
-    height: 300px;
-    border-radius: 10px;
-}
-
-.icons:hover
-{
-    transform: scale(1.5);
+    transform: scale(1.02);
     transition: transform 330ms ease-in;
-}
-
-#dev
-{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20%;
-
+    box-shadow: 8px 8px 12px #aaa;
 }
 
 /*Media queries*/

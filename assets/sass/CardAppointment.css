@@ -1,0 +1,31 @@
+@charset "UTF-8";
+:root {
+  --noir: #000;
+  --beige: #eae7dc;
+  --brun: #d8c3a5;
+  --taupe: #8e8d8a;
+  --saumon: #e98074;
+  --ocre: #e85a4f;
+  --grey: #8e8e8e;
+  --pink: #f8d1ef;
+  --lavander: #9583ec;
+}
+
+.card {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  border-radius: 12px;
+  font-family: "Century Gothic", "Lato", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 330ms ease-in;
+  box-shadow: 8px 8px 12px #aaa;
+}
+
+/*Media queries*/
+/*Style pour mobile,largeur d'écran inférieur à 480px*/
+/*Style pour les tablettes*/
+/*Style pour les desktop*//*# sourceMappingURL=CardAppointment.css.map */

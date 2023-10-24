@@ -28,7 +28,7 @@ html, body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 887.71vh;
+    height: 1000vh;
     position: relative;
     background: var(--beige);
     text-align: center;
@@ -38,7 +38,7 @@ html, body
 
 #accueil
 {
-    margin-top: 180%;
+    margin-top: 290%;
     margin-bottom: 15%;
 }
 
