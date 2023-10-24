@@ -10,6 +10,16 @@ function animateDandelion () {
     const dand1 = Math(x + 1);
 };
 
+//Card content collapse:
+const togg = document.getElementById('togg');
+const content = document.getElementById('cardContent');
+
+togg.addEventListener("click", () => {
+    
+})
+
+
+
 //Footer map:
 
 //Create map:
