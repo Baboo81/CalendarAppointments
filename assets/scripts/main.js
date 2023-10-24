@@ -30,7 +30,7 @@ function collapsed () {
 
 collapsed();
 
-window.onload(collapsed);
+
 
 
 //Footer map:
