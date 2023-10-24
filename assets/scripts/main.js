@@ -22,6 +22,15 @@ togg.addEventListener("click", () => {
     }
 });
 
+function collapsed () {
+    if(getComputedStyle(content).display != "none") {
+        content.style.display = "none";
+  }
+};
+
+collapsed();
+
+window.onload(collapsed);
 
 
 //Footer map:
