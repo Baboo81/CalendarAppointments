@@ -24,6 +24,7 @@
 #fontCaveat
 {
   font-family:"Century Gothic", 'Caveat', cursive;
+  font-weight: 700;
 }
 
 figure 
@@ -73,9 +74,28 @@ figure figcaption
   {
     figure figcaption {
      -webkit-mask: none;
-     color: var(--taupe);
+     color: var(--noir);
     }
   }
+
+.btn
+{
+    height: 4em;
+    width: 12em;
+    color: var(--taupe);
+    font-size: .8em;
+    font-weight: bold;
+    background-color: var(--brun);
+    border-radius: 30px;
+    border: solid 3px var(--taupe);
+}
+
+.btn:hover
+{
+    background-color: var(--taupe);
+    color: var(--beige);
+    border: solid 2px var(--brun);
+}
   
 
 /*Media queries*/
