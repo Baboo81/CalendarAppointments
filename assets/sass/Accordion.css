@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 :root {
   --noir: #000;
   --beige: #eae7dc;
@@ -20,6 +21,10 @@
 
 .accordion-item {
   color: var(--taupe);
+}
+
+.accordion-body {
+  font-family: "Century Gothic", "Caveat", cursive !important;
 }
 
 .accordion-button {

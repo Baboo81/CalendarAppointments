@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 :root
 {
     --noir : #000;
@@ -16,8 +18,12 @@
     margin-top: 0%;
     margin-bottom: 10%;
     border-radius: 12px;
-    font-family: "Century Gothic", 'Lato', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#fontCaveat
+{
+  font-family:"Century Gothic", 'Caveat', cursive;
 }
 
 figure 
