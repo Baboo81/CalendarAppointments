@@ -12,15 +12,19 @@ function animateDandelion () {
 
 //Card content collapse:
 const togg = document.getElementById('togg');
+const togg2 = document.getElementById('togg2');
 const content = document.getElementById('cardContent');
 
+
 togg.addEventListener("click", () => {
-    if(getComputedStyle(content).display != "none") {
+    if(getComputedStyle(content, togg2).display != "none") {
         content.style.display = "none";
     } else {
         content.style.display = "block";
+        togg2.style.display = "block";
     }
 });
+
 
 function collapsed () {
     if(getComputedStyle(content).display != "none") {
