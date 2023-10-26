@@ -18,7 +18,7 @@ const content2 = document.getElementById('cardContent2');
 
 
 togg.addEventListener("click", () => {
-    if(getComputedStyle(content, content2).display != "none") {
+    if(getComputedStyle(content).display != "none") {
         content.style.display = "none";
     } else {
         content.style.display = "block";
@@ -26,7 +26,7 @@ togg.addEventListener("click", () => {
 });
 
 togg2.addEventListener("click", () => {
-    if(getComputedStyle(content, content2).display != "none") {
+    if(getComputedStyle(content2).display != "none") {
         content2.style.display = "none";
     } else {
         content2.style.display = "block";
