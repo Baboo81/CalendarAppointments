@@ -10,6 +10,8 @@ function animateDandelion () {
     const dand1 = Math(x + 1);
 };
 
+/////////////////////////////////////////////////////////////////
+
 //Card content collapse:
 const togg = document.getElementById('togg');
 const togg2 = document.getElementById('togg2');
@@ -42,9 +44,7 @@ function collapsed () {
 };
 
 collapsed();
-
-
-
+//////////////////////////////////////////////////////////////////
 
 //Footer map:
 
@@ -55,3 +55,5 @@ collapsed();
  //Add tiles & marker:
  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
  L.marker([50.709925, 4.352603]).addTo(map);
+
+ /////////////////////////////////////////////////////////////////
