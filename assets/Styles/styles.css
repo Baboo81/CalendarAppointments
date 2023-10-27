@@ -23,6 +23,16 @@ html, body
     align-items: center;
 }
 
+a
+{
+    color: var(--taupe);
+}
+
+a:hover
+{
+    color: var(--beige);
+}
+
 #mainContent
 {
     display: flex;
@@ -39,7 +49,7 @@ html, body
 
 #accueil
 {
-    margin-top: 260%;
+    margin-top: 230%;
     margin-bottom: 15%;
     font-family:"Century Gothic", 'Caveat', cursive;
     font-size: 1.3rem;
@@ -61,9 +71,7 @@ html, body
 
 #logo
 {
-    margin-top: 55%;
-   
-    
+    margin-top: 55%;    
 }
 
 #btn
