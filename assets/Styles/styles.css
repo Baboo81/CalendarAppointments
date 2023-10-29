@@ -74,6 +74,12 @@ a:hover
     margin-top: 55%;    
 }
 
+#rdvImg
+{
+    height: 90rem;
+    width: 90rem;
+}
+
 #btn
 {
     height: 4em;
@@ -91,6 +97,12 @@ a:hover
     background-color: var(--taupe);
     color: var(--beige);
     border: solid 2px var(--brun);
+}
+
+.appointment
+{
+   margin-left: -30%;
+   margin-top:  -20%;
 }
 
 /*Media queries*/
