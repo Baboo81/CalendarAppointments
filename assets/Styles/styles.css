@@ -87,7 +87,8 @@ a:hover
 
 #mixImg
 {
-
+    height: 20rem;
+    width: 20rem;
 }
 
 #btn
