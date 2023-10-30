@@ -49,7 +49,7 @@ a:hover
 
 #accueil
 {
-    margin-top: 230%;
+    margin-top: 260%;
     margin-bottom: 15%;
     font-family:"Century Gothic", 'Caveat', cursive;
     font-size: 1.3rem;
@@ -69,6 +69,11 @@ a:hover
     border-right: solid 2px var(--taupe);
 }
 
+#productCard
+{
+    margin-left: 50%;
+}
+
 #logo
 {
     margin-top: 55%;    
@@ -76,8 +81,13 @@ a:hover
 
 #rdvImg
 {
-    height: 90rem;
-    width: 90rem;
+    height: 45rem;
+    width: 45rem;
+}
+
+#mixImg
+{
+
 }
 
 #btn
@@ -101,7 +111,9 @@ a:hover
 
 .appointment
 {
-    
+    margin-top: 0%;
+    margin-bottom: 30%;
+    margin-left: 0%;
 }
 
 /*Media queries*/
