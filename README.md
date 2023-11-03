@@ -1,3 +1,4 @@
-#Create calendar with appointment's options,
-#Create BD (MongoDB),
-#Create Sass environment.
+#Responsive,
+#Add txt (B. Casssière),
+#Check docx,
+#Footer.
