@@ -11,6 +11,12 @@
   --violet: #431f4b;
 }
 
+strong {
+  color: var(--violet);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
 .accordion {
   margin-top: 0%;
   margin-bottom: 15%;
