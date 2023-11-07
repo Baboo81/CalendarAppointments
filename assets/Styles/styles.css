@@ -39,7 +39,7 @@ a:hover
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1000vh;
+    height: 1200vh;
     position: relative;
     background: var(--beige);
     text-align: center;
