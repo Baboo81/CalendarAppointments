@@ -44,7 +44,7 @@ a:hover
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1200vh;
+    height: 1500vh;
     position: relative;
     background: var(--beige);
     text-align: center;
