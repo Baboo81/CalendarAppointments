@@ -8,8 +8,9 @@
 .carousel-container {
   position: relative;
   overflow: hidden;
-  width: 20em;
-  height: 10em;
+  width: 80em;
+  height: 40em;
+  margin-bottom: 15%;
 }
 
 .carousel-slide {
@@ -41,7 +42,7 @@
   justify-content: center;
   height: 100%;
   width: 100%;
-  text-align: center;
+  text-align: justify;
 }
 
 @keyframes slideFadeIn {
