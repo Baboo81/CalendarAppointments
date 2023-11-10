@@ -54,7 +54,7 @@ a:hover
 
 #accueil
 {
-    margin-top: 280%;
+    margin-top: 310%;
     margin-bottom: 15%;
     font-family:"Century Gothic", 'Caveat', cursive;
     font-size: 1.3rem;
@@ -81,7 +81,7 @@ a:hover
 
 #logo
 {
-    margin-top: 55%;
+    margin-top: 0%;
     margin-right: 9%;    
 }
 
@@ -89,6 +89,7 @@ a:hover
 {
     height: 45rem;
     width: 45rem;
+    margin-top: 20%;
 }
 
 #spaImg
