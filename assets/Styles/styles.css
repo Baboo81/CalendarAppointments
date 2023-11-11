@@ -100,6 +100,18 @@ a:hover
     margin-top: 0%;
 }
 
+/*Ball Animation*/
+#ballContent
+{
+    
+}
+
+#ball1
+{
+    height: 20rem;
+    width: 20rem;
+}
+/*END*/
 #btn
 {
     height: 4em;

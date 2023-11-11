@@ -1,14 +1,27 @@
 "use strict";
 
-//Animation dandelion:
-const dand1 = document.getElementById('dandelion1');
-const dand2 = document.getElementById('dandelion2');
-const dand3 = document.getElementById('dandelion3');
+//Animation balls:
+const ball = document.getElementById('ball1');
+let leftPos = 0;
+let dir = -1;
 
+ball.style.position = "absolute";
 
-function animateDandelion () {
-    const dand1 = Math(x + 1);
+function ballAnimate () {
+    if (leftPos == 300) {
+        dir = 1
+    } else if 
+        (leftPos == -50) {
+        dir = -1
+    }
+    
+    leftPos += -2 * dir;
+    ball.style.left = `${leftPos}px`;
+
+    requestAnimationFrame(ballAnimate);
 };
+
+requestAnimationFrame(ballAnimate);
 
 /////////////////////////////////////////////////////////////////
 
