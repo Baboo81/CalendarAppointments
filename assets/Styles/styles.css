@@ -92,10 +92,10 @@ a:hover
     margin-top: 20%;
 }
 
-#spaImg
+#dandelionImg
 {
-    height: 50rem;
-    width: 50rem;
+    height: 30rem;
+    width: 30rem;
     margin-left: 0%;
     margin-top: 0%;
 }
@@ -108,8 +108,8 @@ a:hover
 
 #ball1
 {
-    height: 20rem;
-    width: 20rem;
+    height: 40rem;
+    width: 40rem;
 }
 /*END*/
 #btn

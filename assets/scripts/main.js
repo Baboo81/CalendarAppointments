@@ -19,6 +19,7 @@ function ballAnimate () {
     
     leftPos += -2 * dir;
     current_rotation += 1;
+    
 
     ball.style.left = `${leftPos}px`;
     ball.style.transform = 'rotate('  + current_rotation + 'deg)';
