@@ -54,7 +54,7 @@ a:hover
 
 #accueil
 {
-    margin-top: 310%;
+    margin-top: 320%;
     margin-bottom: 15%;
     font-family:"Century Gothic", 'Caveat', cursive;
     font-size: 1.3rem;
@@ -75,6 +75,11 @@ a:hover
 #productCard
 {
     margin-left: 0%;
+}
+
+#carouselProduct
+{
+    margin-top: 35%;
 }
 
 #logo
