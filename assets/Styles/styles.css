@@ -59,18 +59,16 @@ a:hover
     font-family:"Century Gothic", 'Caveat', cursive;
     font-size: 1.3rem;
     line-height: 4rem;
-    
-    
 }
 
 #presentation
 {
-    height: 20em;
-    width: 20em;
-    font-size: 1.7em;
+    height: 30em;
+    width: 30em;
+    font-size: 1.5em;
     color: var(--taupe);
     text-align: left;
-    margin-left: -12%;
+    margin-left: 0%;
     border-right: solid 2px var(--taupe);
 }
 
