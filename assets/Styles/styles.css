@@ -133,25 +133,6 @@ a:hover
     color: var(--beige);
     border: solid 2px var(--brun);
 }
-
-#btnVideo
-{
-    height: 3em;
-    width: 7em;
-    color: var(--taupe);
-    font-size: 1em;
-    font-weight: bold;
-    background-color: var(--violet);
-    border-radius: 30px;
-    border: solid 3px var(--taupe);
-}
-
-#btnVideo:hover
-{
-    background-color: var(--taupe);
-    color: var(--beige);
-    border: solid 2px var(--violet);
-}
 /*Btn END*/
 
 .appointment
