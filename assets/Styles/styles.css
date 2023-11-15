@@ -54,7 +54,7 @@ a:hover
 
 #accueil
 {
-    margin-top: 320%;
+    margin-top: 310%;
     margin-bottom: 15%;
     font-family:"Century Gothic", 'Caveat', cursive;
     font-size: 1.3rem;
@@ -92,7 +92,7 @@ a:hover
 {
     height: 45rem;
     width: 45rem;
-    margin-top: 20%;
+    margin-top: 0%;
 }
 
 #dandelionImg
@@ -112,8 +112,9 @@ a:hover
 
 #ball1
 {
-    height: 40rem;
-    width: 40rem;
+    height: 70rem;
+    width: 70rem;
+    opacity: 50%;
 }
 /*END*/
 
